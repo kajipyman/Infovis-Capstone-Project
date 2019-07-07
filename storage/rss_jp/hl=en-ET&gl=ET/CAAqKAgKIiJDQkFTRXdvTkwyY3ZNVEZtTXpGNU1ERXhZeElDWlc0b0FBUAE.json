@@ -1,0 +1,23 @@
+{
+    "src_link": "https://news.google.com/topics/CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTXpGNU1ERXhZeElDWlc0b0FBUAE?hl=en-ET&gl=ET&ceid=ET:en",
+    "language": "en-ET",
+    "get_time": "2018-12-08 13:34:24 GMT",
+    "content": [
+        {
+            "title": "IBM\u306eDeepMind\u306f\u30b2\u30fc\u30e0\u5b66\u7fd2\u30b7\u30b9\u30c6\u30e0Fudzilla\u3092\u4f5c\u6210\u3057\u307e\u3059",
+            "link": "https://fudzilla.com/news/ai/47750-ibm-s-deepmind-creates-a-game-learning-system",
+            "pub_date": "2018-12-07 11:08:05 GMT",
+            "source_nm": "Fudzilla",
+            "source_url": "https://fudzilla.com",
+            "desc": ""
+        },
+        {
+            "title": "AlphaGo\u306e\u3088\u308a\u30b9\u30de\u30fc\u30c8\u306a\u30d0\u30fc\u30b8\u30e7\u30f3\u306b\u3088\u308bAI\u30d6\u30ec\u30fc\u30af\u30b9\u30eb\u30fc\u306eDeepMind  -  Financial Times",
+            "link": "https://www.ft.com/content/ac50f12a-f962-11e8-af46-2022a0b02a6c",
+            "pub_date": "2018-12-06 19:30:52 GMT",
+            "source_nm": "\u30d5\u30a1\u30a4\u30ca\u30f3\u30b7\u30e3\u30eb\u30bf\u30a4\u30e0\u30ba",
+            "source_url": "https://www.ft.com",
+            "desc": "DeepMind, the London-based artificial intelligence company, has announced two research successes \u2014 the strongest game-playing AI so far and the world\u2019s most powerful predictor of the shape of protein molecules \u2014 as it returns to its scientific roots after agreeing to transfer its health division to parent company Google. In the journal Science, DeepMind presents AlphaZero, a development of its celebrated AlphaGo machine. With no prior knowledge or data input beyond the rules of the game, AlphaZero taught itself to play not only Go but also chess and shogi (Japanese chess) at a level that..."
+        }
+    ]
+}

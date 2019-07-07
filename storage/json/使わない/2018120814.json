@@ -1,0 +1,4420 @@
+{
+    "features": [
+        {
+            "query": "hl=en-IE&gl=IE",
+            "properties": {
+                "kw": {
+                    "Ray Moylette": [
+                        "Ray Moylette",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFZtTm5SbmNSSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Leo Varadkar": [
+                        "Leo Varadkar",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp5WW5NNGVoSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Manchester United F.C.": [
+                        "Manchester United F.C.",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFV3Wm1nU0FtVnVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Ulster Rugby": [
+                        "Ulster Rugby",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE4zZEdvNEVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Heather Nauert": [
+                        "Heather Nauert",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qTkdveU9SSUNaVzRvQUFQAQ",
+                        1.3862943611198906
+                    ],
+                    "Jos\u00e9 Mourinho": [
+                        "Jos\u00e9 Mourinho",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE0zT0dodUVnSmxiaWdBUAE",
+                        1.0986122886681098
+                    ]
+                },
+                "nation": "Ireland",
+                "region": "Europe",
+                "coordinates": [
+                    -8.137936,
+                    53.175449
+                ],
+                "score_sum": 14.446816376779887
+            }
+        },
+        {
+            "query": "hl=en-PH&gl=PH",
+            "properties": {
+                "kw": {
+                    "Rodrigo Duterte": [
+                        "Rodrigo Duterte",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR3R6WTNrd0VnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Balangiga bells": [
+                        "Balangiga bells",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE41TVRSaWJoSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Bong Revilla": [
+                        "Bong Revilla",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREkzTTNsMFpCSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Antonio Trillanes": [
+                        "Antonio Trillanes",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp3Ym5Ob2NSSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Philippines": [
+                        "Philippines",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFYyT0dNU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Judicial and Bar Council": [
+                        "Judicial and Bar Council",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR2N4T0RWeEVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Magnolia Hotshots": [
+                        "Magnolia Hotshots",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGh0ZEdOMkVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Philippine Basketball Association": [
+                        "Philippine Basketball Association",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZmYzNodEVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Budget": [
+                        "Budget",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREl4TkRSMEVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Alaska Aces": [
+                        "Alaska Aces",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0ptWTNoeEVnSmxiaWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Philippines",
+                "region": "Asia",
+                "coordinates": [
+                    122.883933,
+                    11.775368
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=en-KE&gl=KE",
+            "properties": {
+                "kw": {
+                    "University of Ilorin": [
+                        "University of Ilorin",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFF6Y3pBMGNCSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Raila Odinga": [
+                        "Raila Odinga",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGhqWjJkbkVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Edgar Lungu": [
+                        "Edgar Lungu",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5TjNoeVpIb1NBbVZ1S0FBUAE",
+                        1.0986122886681098
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Arsenal F.C.": [
+                        "Arsenal F.C.",
+                        "CAAqIAgKIhpDQkFTRFFvSEwyMHZNSGhpYlJJQ1pXNG9BQVAB",
+                        0.6931471805599453
+                    ],
+                    "Philomena Mbete Mwilu": [
+                        "Philomena Mbete Mwilu",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZuWW14a2VuaDJhQklDWlc0b0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Uhuru Kenyatta": [
+                        "Uhuru Kenyatta",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREp5YlRWM0VnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Zambia": [
+                        "Zambia",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGc0ZG1JU0FtVnVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Kenya": [
+                        "Kenya",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREU1Y21jMUVnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Student": [
+                        "Student",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUwWTI1akVnSmxiaWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Kenya",
+                "region": "Africa",
+                "coordinates": [
+                    37.79594,
+                    0.59988
+                ],
+                "score_sum": 7.803026643632218
+            }
+        },
+        {
+            "query": "hl=en-MY&gl=MY",
+            "properties": {
+                "kw": {
+                    "Sabah": [
+                        "Sabah",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGN6TkRnU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Tourism": [
+                        "Tourism",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl3ZVhKMk5tZ1NBbVZ1S0FBUAE",
+                        0.0
+                    ],
+                    "Rohingya people": [
+                        "Rohingya people",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFkyTVRONkVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Singapore": [
+                        "Singapore",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFowTW5RU0FtVnVLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Malaysia": [
+                        "Malaysia",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGx3Yld0MkVnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Perbadanan Tabung Pendidikan Tinggi Nasional": [
+                        "Perbadanan Tabung Pendidikan Tinggi Nasional",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE4zWjNkcWVSSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Wan Azizah Wan Ismail": [
+                        "Wan Azizah Wan Ismail",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFV3ZEdNeUVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Myanmar": [
+                        "Myanmar",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFI0Ymw4U0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Accident": [
+                        "Accident",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpTnpabWVXb3ljaElDWlc0b0FBUAE",
+                        0.6931471805599453
+                    ]
+                },
+                "nation": "Malaysia",
+                "region": "Asia",
+                "coordinates": [
+                    109.697623,
+                    3.789868
+                ],
+                "score_sum": 5.2574953720277815
+            }
+        },
+        {
+            "query": "hl=en-ZW&gl=ZW",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Far side of the Moon": [
+                        "Far side of the Moon",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Mars": [
+                        "Mars",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGxqZDNNU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "Zimbabwe": [
+                        "Zimbabwe",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGc0Y1RRU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Moon": [
+                        "Moon",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtVnVLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "Petroleum": [
+                        "Petroleum",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ5WDJvU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "China": [
+                        "China",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TlhjekVnSmxiaWdBUAE",
+                        1.9459101490553132
+                    ],
+                    "Avengers: Infinity War": [
+                        "Avengers: Infinity War",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEyNFNBbVZ1S0FBUAE",
+                        1.6094379124341003
+                    ]
+                },
+                "nation": "Zimbabwe",
+                "region": "Africa",
+                "coordinates": [
+                    29.851441,
+                    -19.004204
+                ],
+                "score_sum": 19.003612978483762
+            }
+        },
+        {
+            "query": "hl=en-NG&gl=NG",
+            "properties": {
+                "kw": {
+                    "Atiku Abubakar": [
+                        "Atiku Abubakar",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR013TWpScUVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Muhammadu Buhari": [
+                        "Muhammadu Buhari",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREp3TkRWb0VnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Arsenal F.C.": [
+                        "Arsenal F.C.",
+                        "CAAqIAgKIhpDQkFTRFFvSEwyMHZNSGhpYlJJQ1pXNG9BQVAB",
+                        0.6931471805599453
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Ekiti State": [
+                        "Ekiti State",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFZ6T0RSNkVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Heather Nauert": [
+                        "Heather Nauert",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qTkdveU9SSUNaVzRvQUFQAQ",
+                        1.3862943611198906
+                    ],
+                    "Nigeria": [
+                        "Nigeria",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZqWjNZU0FtVnVLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "United States Ambassador to the United Nations": [
+                        "United States Ambassador to the United Nations",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREYwZVRBNEVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Chelsea F.C.": [
+                        "Chelsea F.C.",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREl6Wm1JU0FtVnVLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Nigeria",
+                "region": "Africa",
+                "coordinates": [
+                    8.089439,
+                    9.594115
+                ],
+                "score_sum": 9.47700307720389
+            }
+        },
+        {
+            "query": "hl=en-AU&gl=AU",
+            "properties": {
+                "kw": {
+                    "Australia national cricket team": [
+                        "Australia national cricket team",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREl3ZDNsd0VnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Rex W. Tillerson": [
+                        "Rex W. Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmxiaWdBUAE",
+                        1.3862943611198906
+                    ],
+                    "Karl Stefanovic": [
+                        "Karl Stefanovic",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR056WHpod0VnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Stabbing": [
+                        "Stabbing",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREo0TlRKbUVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "India national cricket team": [
+                        "India national cricket team",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREkwYm1veEVnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Adelaide": [
+                        "Adelaide",
+                        "CAAqIAgKIhpDQkFTRFFvSEwyMHZNRzFuY0JJQ1pXNG9BQVAB",
+                        0.0
+                    ],
+                    "Robert Mueller": [
+                        "Robert Mueller",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREprYW0xb0VnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Thrombus": [
+                        "Thrombus",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREU0WDNKMEVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Charlottesville": [
+                        "Charlottesville",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRzF3TTJ3U0FtVnVLQUFQAQ",
+                        0.6931471805599453
+                    ]
+                },
+                "nation": "Australia",
+                "region": "Oceania",
+                "coordinates": [
+                    134.491,
+                    -25.732887
+                ],
+                "score_sum": 8.435549202375727
+            }
+        },
+        {
+            "query": "hl=de&gl=AT",
+            "properties": {
+                "kw": {
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmtaU2dBUAE",
+                        3.1780538303479458
+                    ],
+                    "Rex Tillerson": [
+                        "Rex Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmtaU2dBUAE",
+                        1.9459101490553132
+                    ],
+                    "Michael Cohen": [
+                        "Michael Cohen",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqYW1vMU5qRjBjQklDWkdVb0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR00yYzNKdGFoSUNaR1VvQUFQAQ",
+                        2.1972245773362196
+                    ],
+                    "Department of State of the United States": [
+                        "Au\u00dfenministerium der Vereinigten Staaten",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGQyYzJ3U0FtUmxLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Christian Democratic Union of Germany": [
+                        "Christlich Demokratische Union Deutschlands",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FtUmxLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "John F. Kelly": [
+                        "John F. Kelly",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFI2ZVc1eGVoSUNaR1VvQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "France": [
+                        "Frankreich",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1k0YkRsakVnSmtaU2dBUAE",
+                        0.6931471805599453
+                    ],
+                    "Emmanuel Macron": [
+                        "Emmanuel Macron",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV4Ym1OeU9HTVNBbVJsS0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Vienna": [
+                        "Wien",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1pvY0RrU0FtUmxLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Austria",
+                "region": "Europe",
+                "coordinates": [
+                    14.126476,
+                    47.585494
+                ],
+                "score_sum": 12.984149036875424
+            }
+        },
+        {
+            "query": "hl=en-NZ&gl=NZ",
+            "properties": {
+                "kw": {
+                    "New Zealand national rugby union team": [
+                        "New Zealand national rugby union team",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUwT0hFMkVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Akira Ioane": [
+                        "Akira Ioane",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV6TUhNMGJERVNBbVZ1S0FBUAE",
+                        0.0
+                    ],
+                    "Invercargill": [
+                        "Invercargill",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZ1YURWb0VnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Wayne Shelford": [
+                        "Wayne Shelford",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFUwWDNZd0VnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Waiwera Hot Pools": [
+                        "Waiwera Hot Pools",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFJ0ZVhsck1oSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Pakistan national cricket team": [
+                        "Pakistan national cricket team",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE00WHpCNkVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Auckland": [
+                        "Auckland",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREV5ZEhNU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Robert Mueller": [
+                        "Robert Mueller",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREprYW0xb0VnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "New Zealand": [
+                        "New Zealand",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR04wZDE5aUVnSmxiaWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "New Zealand",
+                "region": "Oceania",
+                "coordinates": [
+                    171.484923,
+                    -41.811136
+                ],
+                "score_sum": 4.969813299576001
+            }
+        },
+        {
+            "query": "hl=vi&gl=VN",
+            "properties": {
+                "kw": {
+                    "Vinh": [
+                        "Vinh",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFV6WmpZNUVnSjJhU2dBUAE",
+                        0.0
+                    ],
+                    "Vietnam national football team": [
+                        "\u0110\u1ed9i tuy\u1ec3n b\u00f3ng \u0111\u00e1 qu\u1ed1c gia Vi\u1ec7t Nam",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFJpTm5ONUVnSjJhU2dBUAE",
+                        0.0
+                    ],
+                    "Nguyen Minh Tu": [
+                        "Nguy\u1ec5n Minh T\u00fa",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZuT0haNE1ESXhOUklDZG1rb0FBUAE",
+                        0.0
+                    ],
+                    "Miss Super National": [
+                        "Hoa h\u1eadu Si\u00eau qu\u1ed1c gia",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRGRyWWpFMU1CSUNkbWtvQUFQAQ",
+                        0.0
+                    ],
+                    "Vietnam": [
+                        "Vi\u1ec7t Nam",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY21RMUVnSjJhU2dBUAE",
+                        0.0
+                    ],
+                    "Thanh Cang": [
+                        "T\u1ea5t Th\u00e0nh Cang",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVEZrZVdwaWNHNDJFZ0oyYVNnQVAB",
+                        0.0
+                    ],
+                    "Southeast Asian Football Championship 2018": [
+                        "Gi\u1ea3i v\u00f4 \u0111\u1ecbch b\u00f3ng \u0111\u00e1 \u0110\u00f4ng Nam \u00c1 2018",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpZHpWNVoydzNiUklDZG1rb0FBUAE",
+                        0.0
+                    ],
+                    "Malaysia national football team": [
+                        "\u0110\u1ed9i tuy\u1ec3n b\u00f3ng \u0111\u00e1 qu\u1ed1c gia Malaysia",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFJvTkhwNEVnSjJhU2dBUAE",
+                        0.0
+                    ],
+                    "Hanoi": [
+                        "H\u00e0 N\u1ed9i",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1p1Wm1ZU0FuWnBLQUFQAQ",
+                        0.0
+                    ],
+                    "Nghe An": [
+                        "Ngh\u1ec7 An",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR2N6ZG5SMkVnSjJhU2dBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Vietnam",
+                "region": "Asia",
+                "coordinates": [
+                    106.299147,
+                    16.646017
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=ja&gl=JP",
+            "properties": {
+                "kw": {
+                    "Yoshiji Tonoiwa": [
+                        "\u8cb4\u30ce\u5ca9\u7fa9\u53f8",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV3T0RZemVEUVNBbXBoS0FBUAE",
+                        0.0
+                    ],
+                    "Japan": [
+                        "\u65e5\u672c",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE5mTTJRU0FtcGhLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Donald Trump": [
+                        "\u30c9\u30ca\u30eb\u30c9\u30fb\u30c8\u30e9\u30f3\u30d7",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSnFZU2dBUAE",
+                        3.1780538303479458
+                    ],
+                    "Immigration Control and Refugee Recognition Act": [
+                        "\u51fa\u5165\u56fd\u7ba1\u7406\u53ca\u3073\u96e3\u6c11\u8a8d\u5b9a\u6cd5",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl6T1dwdWJqY1NBbXBoS0FBUAE",
+                        0.0
+                    ],
+                    "Fukuoka University": [
+                        "\u798f\u5ca1\u5927\u5b66",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE53YW1wekVnSnFZU2dBUAE",
+                        0.0
+                    ],
+                    "USA": [
+                        "\u7c73\u56fd",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSnFZU2dBUAE",
+                        0.6931471805599453
+                    ],
+                    "Sendai city": [
+                        "\u4ed9\u53f0\u5e02",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREYzY2pRekVnSnFZU2dBUAE",
+                        0.0
+                    ],
+                    "Australia": [
+                        "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR05vWjJoNUVnSnFZU2dBUAE",
+                        0.6931471805599453
+                    ],
+                    "Korea High Speed \u200b\u200bRailway": [
+                        "\u97d3\u56fd\u9ad8\u901f\u9244\u9053",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREpzT1c1d0VnSnFZU2dBUAE",
+                        0.0
+                    ],
+                    "South Korea": [
+                        "\u5927\u97d3\u6c11\u56fd",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFp4WkRNU0FtcGhLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Japan",
+                "region": "Asia",
+                "coordinates": [
+                    138.030896,
+                    37.592301
+                ],
+                "score_sum": 5.2574953720277815
+            }
+        },
+        {
+            "query": "hl=en-SG&gl=SG",
+            "properties": {
+                "kw": {
+                    "Australia national cricket team": [
+                        "Australia national cricket team",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREl3ZDNsd0VnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Heather Nauert": [
+                        "Heather Nauert",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qTkdveU9SSUNaVzRvQUFQAQ",
+                        1.3862943611198906
+                    ],
+                    "India national cricket team": [
+                        "India national cricket team",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREkwYm1veEVnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Singapore": [
+                        "Singapore",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFowTW5RU0FtVnVLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Malaysia": [
+                        "Malaysia",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGx3Yld0MkVnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Avengers: Infinity War": [
+                        "Avengers: Infinity War",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEyNFNBbVZ1S0FBUAE",
+                        1.6094379124341003
+                    ]
+                },
+                "nation": "Singapore",
+                "region": "Asia",
+                "coordinates": [
+                    103.817256,
+                    1.358761
+                ],
+                "score_sum": 16.631618434117552
+            }
+        },
+        {
+            "query": "hl=sl&gl=SI",
+            "properties": {
+                "kw": {
+                    "Slovenia": [
+                        "Slovenija",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFowT0hZU0FuTnNLQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FuTnNLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Christian Democratic Union": [
+                        "Kr\u0161\u010dansko demokratska unija",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FuTnNLQUFQAQ",
+                        1.6094379124341003
+                    ],
+                    "Levica": [
+                        "Levica",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpWXpaeGFubzJkQklDYzJ3b0FBUAE",
+                        0.0
+                    ],
+                    "Jakov Fak": [
+                        "Jakov Fak",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFZ0Y1hvd09SSUNjMndvQUFQAQ",
+                        0.0
+                    ],
+                    "Ale\u0161 Br\u017ean": [
+                        "Ale\u0161 Br\u017ean",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZuTVcxdGVUSnhhQklDYzJ3b0FBUAE",
+                        0.0
+                    ],
+                    "Boris Popovich": [
+                        "Boris Popovi\u010d",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl5WW1jMWMzb1NBbk5zS0FBUAE",
+                        0.0
+                    ],
+                    "Karl Erjavec": [
+                        "Karl Erjavec",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFJuZEhSNGRCSUNjMndvQUFQAQ",
+                        0.0
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR00yYzNKdGFoSUNjMndvQUFQAQ",
+                        2.1972245773362196
+                    ],
+                    "Australia": [
+                        "Avstralija",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR05vWjJoNUVnSnpiQ2dBUAE",
+                        0.6931471805599453
+                    ]
+                },
+                "nation": "Slovenia",
+                "region": "Europe",
+                "coordinates": [
+                    14.804442,
+                    46.115548
+                ],
+                "score_sum": 8.026170194946427
+            }
+        },
+        {
+            "query": "hl=en-US&gl=US",
+            "properties": {
+                "kw": {
+                    "Attack on Pearl Harbor": [
+                        "Attack on Pearl Harbor",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RqTVY4U0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Alexandria Ocasio-Cortez": [
+                        "Alexandria Ocasio-Cortez",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTm5remJuRm5OaElDWlc0b0FBUAE",
+                        0.0
+                    ],
+                    "Rex W. Tillerson": [
+                        "Rex W. Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmxiaWdBUAE",
+                        1.3862943611198906
+                    ],
+                    "John F. Kelly": [
+                        "John F. Kelly",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFI2ZVc1eGVoSUNaVzRvQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Jamal Khashoggi": [
+                        "Jamal Khashoggi",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1pqT1habkVnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Saudi Arabia": [
+                        "Saudi Arabia",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREY2TWpFMUVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Robert Mueller": [
+                        "Robert Mueller",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREprYW0xb0VnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "North Carolina": [
+                        "North Carolina",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZtYTJZU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Winter storm": [
+                        "Winter storm",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZyWjNBMkVnSmxiaWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "USA",
+                "region": "North America",
+                "coordinates": [
+                    -96.767474,
+                    38.294041
+                ],
+                "score_sum": 7.742402021815781
+            }
+        },
+        {
+            "query": "hl=en-ZA&gl=ZA",
+            "properties": {
+                "kw": {
+                    "Manchester United F.C.": [
+                        "Manchester United F.C.",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFV3Wm1nU0FtVnVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Philomena Mbete Mwilu": [
+                        "Philomena Mbete Mwilu",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZuWW14a2VuaDJhQklDWlc0b0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Jos\u00e9 Mourinho": [
+                        "Jos\u00e9 Mourinho",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE0zT0dodUVnSmxiaWdBUAE",
+                        1.0986122886681098
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Wage": [
+                        "Wage",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZmT1RReUVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Accident": [
+                        "Accident",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpTnpabWVXb3ljaElDWlc0b0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Robert Mueller": [
+                        "Robert Mueller",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREprYW0xb0VnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Kenya": [
+                        "Kenya",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREU1Y21jMUVnSmxiaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Israel": [
+                        "Israel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE56Y0hvU0FtVnVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Boycott, Divestment and Sanctions": [
+                        "Boycott, Divestment and Sanctions",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp5Tm5Gd1loSUNaVzRvQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "South Africa",
+                "region": "Africa",
+                "coordinates": [
+                    25.083901,
+                    -29.000341
+                ],
+                "score_sum": 10.345091707260165
+            }
+        },
+        {
+            "query": "hl=en-NA&gl=NA",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Far side of the Moon": [
+                        "Far side of the Moon",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Mars": [
+                        "Mars",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGxqZDNNU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "Moon": [
+                        "Moon",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtVnVLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "Petroleum": [
+                        "Petroleum",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ5WDJvU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "China": [
+                        "China",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TlhjekVnSmxiaWdBUAE",
+                        1.9459101490553132
+                    ],
+                    "Avengers: Infinity War": [
+                        "Avengers: Infinity War",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEyNFNBbVZ1S0FBUAE",
+                        1.6094379124341003
+                    ],
+                    "OPEC": [
+                        "OPEC",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUyTlY5a0VnSmxiaWdBUAE",
+                        1.0986122886681098
+                    ]
+                },
+                "nation": "Namibia",
+                "region": "Africa",
+                "coordinates": [
+                    17.209636,
+                    -22.130326
+                ],
+                "score_sum": 20.102225267151873
+            }
+        },
+        {
+            "query": "hl=en-PK&gl=PK",
+            "properties": {
+                "kw": {
+                    "Nawaz Sharif": [
+                        "Nawaz Sharif",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREl3ZERZeUVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Pakistan": [
+                        "Pakistan",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ6WWpFU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Lahore": [
+                        "Lahore",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNSGh1ZERVU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Motorways of Pakistan": [
+                        "Motorways of Pakistan",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREkzYkhweGNSSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Ministry of Human Rights": [
+                        "Ministry of Human Rights",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFV5TTJkMmVSSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Afghanistan": [
+                        "Afghanistan",
+                        "CAAqIAgKIhpDQkFTRFFvSEwyMHZNR3BrWkJJQ1pXNG9BQVAB",
+                        0.0
+                    ],
+                    "Gilgit-Baltistan": [
+                        "Gilgit-Baltistan",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFEzWjJ4eU5CSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Imran Khan": [
+                        "Imran Khan",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREkxWTJvMEVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Fog": [
+                        "Fog",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2N5ZWpnU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Pakistan Tehreek-e-Insaf": [
+                        "Pakistan Tehreek-e-Insaf",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFZyYzNoakVnSmxiaWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Pakistan",
+                "region": "Asia",
+                "coordinates": [
+                    69.339579,
+                    29.949752
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=en-CA&gl=CA",
+            "properties": {
+                "kw": {
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Rex W. Tillerson": [
+                        "Rex W. Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmxiaWdBUAE",
+                        1.3862943611198906
+                    ],
+                    "Brooklyn Nets": [
+                        "Brooklyn Nets",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3B0TTJJU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Toronto Raptors": [
+                        "Toronto Raptors",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3B0WTJJU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Christmas Day": [
+                        "Christmas Day",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREYyY1RNU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Robert Mueller": [
+                        "Robert Mueller",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREprYW0xb0VnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Ontario": [
+                        "Ontario",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZyY2w4U0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Inquest": [
+                        "Inquest",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qTW5scmVSSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "School": [
+                        "School",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFo2WkdvU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Mississauga": [
+                        "Mississauga",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUxTkdkNEVnSmxiaWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Canada",
+                "region": "North America",
+                "coordinates": [
+                    -108.116645,
+                    57.91934
+                ],
+                "score_sum": 6.356107660695891
+            }
+        },
+        {
+            "query": "hl=en-GB&gl=GB",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Meghan, Duchess of Sussex": [
+                        "Meghan, Duchess of Sussex",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp5TTNjNGNoSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Rex W. Tillerson": [
+                        "Rex W. Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmxiaWdBUAE",
+                        1.3862943611198906
+                    ],
+                    "Brexit": [
+                        "Brexit",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVEl3TTJ4eE1HMTNFZ0psYmlnQVAB",
+                        0.0
+                    ],
+                    "UK Independence Party": [
+                        "UK Independence Party",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZtZG5OMkVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Tommy Robinson": [
+                        "Tommy Robinson",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR2d4YUhRMWVoSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Robert Mueller": [
+                        "Robert Mueller",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREprYW0xb0VnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Paul Nuttall": [
+                        "Paul Nuttall",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFkwY0hjMVh4SUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "United Kingdom": [
+                        "United Kingdom",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGR6YzJNU0FtVnVLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "UK",
+                "region": "Europe",
+                "coordinates": [
+                    -2.865632,
+                    54.123872
+                ],
+                "score_sum": 9.882468185312053
+            }
+        },
+        {
+            "query": "hl=sv&gl=SE",
+            "properties": {
+                "kw": {
+                    "Arlanda": [
+                        "Arlanda",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUxZEc1ekVnSnpkaWdBUAE",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FuTjJLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Paris": [
+                        "Paris",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ4ZEdvU0FuTjJLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR00yYzNKdGFoSUNjM1lvQUFQAQ",
+                        2.1972245773362196
+                    ],
+                    "Germany": [
+                        "Tyskland",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE0wTldnU0FuTjJLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "CDU": [
+                        "CDU",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FuTjJLQUFQAQ",
+                        0.0
+                    ],
+                    "Linkoping": [
+                        "Link\u00f6ping",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNSHAzTVY4U0FuTjJLQUFQAQ",
+                        0.0
+                    ],
+                    "PostNord Sweden": [
+                        "PostNord Sverige",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGR0Y25oeEVnSnpkaWdBUAE",
+                        0.0
+                    ],
+                    "Vasteras": [
+                        "V\u00e4ster\u00e5s",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE42ZUY4MUVnSnpkaWdBUAE",
+                        0.0
+                    ],
+                    "E18": [
+                        "E18",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVEV6Y1dKc01HNTJFZ0p6ZGlnQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "Sweden",
+                "region": "Europe",
+                "coordinates": [
+                    14.783805,
+                    60.413995
+                ],
+                "score_sum": 7.1098794630722715
+            }
+        },
+        {
+            "query": "hl=zh-CN&gl=CN",
+            "properties": {
+                "kw": {
+                    "Bayi Air Show Team": [
+                        "\u516b\u4e00\u98de\u884c\u8868\u6f14\u961f",
+                        "CAAqKQgKIiNDQkFTRkFvSkwyMHZNRFZ1WDNSeUVnZDZhQzFJWVc1ektBQVAB",
+                        0.0
+                    ],
+                    "\u6b7c-20": [
+                        "\u6b7c-20",
+                        "CAAqKggKIiRDQkFTRlFvS0wyMHZNR0kyYURJMWVSSUhlbWd0U0dGdWN5Z0FQAQ",
+                        0.0
+                    ],
+                    "China National Chemical Corporation": [
+                        "\u4e2d\u56fd\u5316\u5de5\u96c6\u56e2",
+                        "CAAqKggKIiRDQkFTRlFvS0wyMHZNSHAzY25Kc1p4SUhlbWd0U0dGdWN5Z0FQAQ",
+                        0.0
+                    ],
+                    "People&#39;s Republic": [
+                        "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd",
+                        "CAAqKQgKIiNDQkFTRkFvSkwyMHZNR1F3TlhjekVnZDZhQzFJWVc1ektBQVAB",
+                        0.0
+                    ],
+                    "China War of Resistance Against Japan": [
+                        "\u4e2d\u56fd\u6297\u65e5\u6218\u4e89",
+                        "CAAqKAgKIiJDQkFTRXdvSUwyMHZNR28xZVcwU0IzcG9MVWhoYm5Nb0FBUAE",
+                        0.0
+                    ],
+                    "Hainan": [
+                        "\u6d77\u5357\u7701",
+                        "CAAqKQgKIiNDQkFTRkFvSkwyMHZNREUyTm1KeUVnZDZhQzFJWVc1ektBQVAB",
+                        0.0
+                    ],
+                    "Chinese People&#39;s Liberation Army Air Force": [
+                        "\u4e2d\u56fd\u4eba\u6c11\u89e3\u653e\u519b\u7a7a\u519b",
+                        "CAAqKQgKIiNDQkFTRkFvSkwyMHZNREl4YmpWaUVnZDZhQzFJWVc1ektBQVAB",
+                        0.0
+                    ],
+                    "National People&#39;s Representative Meeting": [
+                        "\u5168\u56fd\u4eba\u6c11\u4ee3\u8868\u5927\u4f1a",
+                        "CAAqKAgKIiJDQkFTRXdvSUwyMHZNR016ZUcwU0IzcG9MVWhoYm5Nb0FBUAE",
+                        0.0
+                    ],
+                    "Qidong Anti-Community Autonomous Government": [
+                        "\u5180\u4e1c\u9632\u5171\u81ea\u6cbb\u653f\u5e9c",
+                        "CAAqKQgKIiNDQkFTRkFvSkwyMHZNR2Q1TXpJM0VnZDZhQzFJWVc1ektBQVAB",
+                        0.0
+                    ],
+                    "State-owned enterprise": [
+                        "\u56fd\u6709\u4f01\u4e1a",
+                        "CAAqKQgKIiNDQkFTRkFvSkwyMHZNREZrTVhvMkVnZDZhQzFJWVc1ektBQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "China",
+                "region": "Asia",
+                "coordinates": [
+                    104.261435,
+                    33.465238
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=fr&gl=MA",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtWnlLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSm1jaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "National Council for Human Rights": [
+                        "Conseil national des droits de l'homme",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNV2hpWDJacU5IRmpFZ0ptY2lnQVAB",
+                        0.0
+                    ],
+                    "Trolley": [
+                        "Trolley",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGRyWm0wU0FtWnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Morocco": [
+                        "Maroc",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzWjJnU0FtWnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Amina Bouayach": [
+                        "Amina Bouayach",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpTnpack5tdGZZaElDWm5Jb0FBUAE",
+                        0.0
+                    ],
+                    "G5 Sahel": [
+                        "G5 Sahel",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpTm5jelpERXpOQklDWm5Jb0FBUAE",
+                        0.0
+                    ],
+                    "Cable News Network": [
+                        "Cable News Network",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2R6WjNJU0FtWnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Heather Nauert": [
+                        "Heather Nauert",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qTkdveU9SSUNabklvQUFQAQ",
+                        1.3862943611198906
+                    ],
+                    "Human migration": [
+                        "Migration humaine",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl3ZURjMGMyMFNBbVp5S0FBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Morocco",
+                "region": "Africa",
+                "coordinates": [
+                    -8.456158,
+                    29.83763
+                ],
+                "score_sum": 8.090708716083999
+            }
+        },
+        {
+            "query": "hl=ko&gl=KR",
+            "properties": {
+                "kw": {
+                    "College Scholastic Ability Test": [
+                        "\ub300\ud559\uc218\ud559\ub2a5\ub825\uc2dc\ud5d8",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR2RvTm5sa0VnSnJieWdBUAE",
+                        0.0
+                    ],
+                    "Son Hak-gyu": [
+                        "\uc190\ud559\uaddc",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1k0ZW1jMEVnSnJieWdBUAE",
+                        0.0
+                    ],
+                    "Seoul": [
+                        "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2h6Y1dZU0FtdHZLQUFQAQ",
+                        0.0
+                    ],
+                    "Korea High Speed \u200b\u200bRail": [
+                        "\ud55c\uad6d\uace0\uc18d\ucca0\ub3c4",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREpzT1c1d0VnSnJieWdBUAE",
+                        0.0
+                    ],
+                    "Kim Jong-un": [
+                        "\uae40\uc815\uc740",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1puZHpFNUVnSnJieWdBUAE",
+                        0.0
+                    ],
+                    "President of the Republic of Korea": [
+                        "\ub300\ud55c\ubbfc\uad6d\uc758 \ub300\ud1b5\ub839",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNSEE0WkRBU0FtdHZLQUFQAQ",
+                        0.0
+                    ],
+                    "Korea National Assembly": [
+                        "\ub300\ud55c\ubbfc\uad6d \uad6d\ud68c",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREoyT1hCM0VnSnJieWdBUAE",
+                        0.0
+                    ],
+                    "Korean Army Security Command": [
+                        "\uad6d\uad70\uae30\ubb34\uc0ac\ub839\ubd80",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRGd3Y0RWNWJoSUNhMjhvQUFQAQ",
+                        0.0
+                    ],
+                    "The": [
+                        "\ubb38\uc7ac\uc778",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR2h1WTNOa05CSUNhMjhvQUFQAQ",
+                        0.0
+                    ],
+                    "Gangneung Station": [
+                        "\uac15\ub989\uc5ed",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSGx1ZHpKdVp4SUNhMjhvQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Korea",
+                "region": "Asia",
+                "coordinates": [
+                    127.839161,
+                    36.38524
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=ar&gl=LB",
+            "properties": {
+                "kw": {
+                    "Walid Jumblatt": [
+                        "\u0648\u0644\u064a\u062f \u062c\u0646\u0628\u0644\u0627\u0637",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREk0Wm1OMEVnSmhjaWdBUAE",
+                        0.0
+                    ],
+                    "Selim Grisati": [
+                        "\u0633\u0644\u064a\u0645 \u062c\u0631\u064a\u0635\u0627\u062a\u064a",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSEE0ZUdoZk9SSUNZWElvQUFQAQ",
+                        0.0
+                    ],
+                    "Lebanon": [
+                        "\u0644\u0628\u0646\u0627\u0646",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJvY1hvU0FtRnlLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Angela Merkel": [
+                        "\u0623\u0646\u063a\u064a\u0644\u0627 \u0645\u064a\u0631\u0643\u0644",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtRnlLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Hizb allah": [
+                        "\u062d\u0632\u0628 \u0627\u0644\u0644\u0647",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE50TjJRU0FtRnlLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Saad Hariri": [
+                        "\u0633\u0639\u062f \u0627\u0644\u062f\u064a\u0646 \u0627\u0644\u062d\u0631\u064a\u0631\u064a",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFptYmpkNkVnSmhjaWdBUAE",
+                        0.0
+                    ],
+                    "Emad Othman": [
+                        "\u0639\u0645\u0627\u062f \u0639\u062b\u0645\u0627\u0646",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVEZ5TjNCc2JuQnFFZ0poY2lnQVAB",
+                        0.0
+                    ],
+                    "Akkar district": [
+                        "\u0642\u0636\u0627\u0621 \u0639\u0643\u0627\u0631",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE4wYm5nMkVnSmhjaWdBUAE",
+                        0.0
+                    ],
+                    "United State": [
+                        "\u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmhjaWdBUAE",
+                        1.0986122886681098
+                    ],
+                    "Sana&#39;a": [
+                        "\u0635\u0646\u0639\u0627\u0621",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1o1WXpVU0FtRnlLQUFQAQ",
+                        1.3862943611198906
+                    ]
+                },
+                "nation": "Lebanon",
+                "region": "Asia",
+                "coordinates": [
+                    35.880161,
+                    33.923066
+                ],
+                "score_sum": 7.397561535524053
+            }
+        },
+        {
+            "query": "hl=zh-HK&gl=HK",
+            "properties": {
+                "kw": {
+                    "Zhu Kaidi": [
+                        "\u6731\u51f1\u5ef8",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyY3ZNVFUxY0doNWFuRVNCWHBvTFVoTEtBQVAB",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "\u5b89\u683c\u62c9\u00b7\u9ed8\u514b\u723e",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3BzTUdjU0JYcG9MVWhMS0FBUAE",
+                        3.5263605246161616
+                    ],
+                    "Lin Zhengyue": [
+                        "\u6797\u912d\u6708\u5a25",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRFJuTUdSa2NCSUZlbWd0U0Vzb0FBUAE",
+                        0.0
+                    ],
+                    "Lin Zhuo Ting": [
+                        "\u6797\u5353\u5ef7",
+                        "CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZpTjJ4Mk9HWXljaElGZW1ndFNFc29BQVAB",
+                        0.0
+                    ],
+                    "Xu Xiaohui": [
+                        "\u8a31\u66c9\u6689",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRFEzYm5NMGRCSUZlbWd0U0Vzb0FBUAE",
+                        0.0
+                    ],
+                    "Yin Zhaojian": [
+                        "\u5c39\u5146\u5805",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyY3ZNVFUxY1RWaWJUSVNCWHBvTFVoTEtBQVAB",
+                        0.0
+                    ],
+                    "German Christian Democratic Union": [
+                        "\u5fb7\u570b\u57fa\u7763\u6559\u6c11\u4e3b\u806f\u76df",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR2RuTmpnU0JYcG9MVWhMS0FBUAE",
+                        0.0
+                    ],
+                    "Tuen Mun Highway": [
+                        "\u5c6f\u9580\u516c\u8def",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNRFIyTUdkakVnVjZhQzFJU3lnQVAB",
+                        0.0
+                    ],
+                    "Republic of Korea": [
+                        "\u5927\u97d3\u6c11\u570b",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFp4WkRNU0JYcG9MVWhMS0FBUAE",
+                        0.0
+                    ],
+                    "Hong Kong Legislative Council": [
+                        "\u9999\u6e2f\u7acb\u6cd5\u6703",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNREZ3TW0wMUVnVjZhQzFJU3lnQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "Hong Kong",
+                "region": "Asia",
+                "coordinates": [
+                    114.113805,
+                    22.398277
+                ],
+                "score_sum": 3.5263605246161616
+            }
+        },
+        {
+            "query": "hl=hi&gl=IN",
+            "properties": {
+                "kw": {
+                    "Nitin Gadkari": [
+                        "\u0928\u093f\u0924\u093f\u0928 \u0917\u0921\u0915\u0930\u0940",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp5ZUdweWVoSUNhR2tvQUFQAQ",
+                        0.0
+                    ],
+                    "Nitish Kumar": [
+                        "\u0928\u093f\u0924\u0940\u0936 \u0915\u0941\u092e\u093e\u0930",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGhmWnpCckVnSm9hU2dBUAE",
+                        0.0
+                    ],
+                    "Ramchandra Guha": [
+                        "\u0930\u093e\u092e\u091a\u0902\u0926\u094d\u0930 \u0917\u0941\u0939\u093e",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1prTlhsdUVnSm9hU2dBUAE",
+                        0.0
+                    ],
+                    "Bharatiya Janata Party": [
+                        "\u092d\u093e\u0930\u0924\u0940\u092f \u091c\u0928\u0924\u093e \u092a\u093e\u0930\u094d\u091f\u0940",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREV6TldOM0VnSm9hU2dBUAE",
+                        0.0
+                    ],
+                    "Robert Vadra": [
+                        "\u0930\u0949\u092c\u0930\u094d\u091f \u0935\u0922\u0930\u093e",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGsxZDJKc0VnSm9hU2dBUAE",
+                        0.0
+                    ],
+                    "Surgical insemination": [
+                        "\u0936\u0932\u094d\u092f \u0905\u0928\u094d\u0924\u0930\u094d\u0935\u0947\u0927\u0928",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE14TkhkNEVnSm9hU2dBUAE",
+                        0.0
+                    ],
+                    "Jammu and Kashmir": [
+                        "\u091c\u092e\u094d\u092e\u0942 \u0914\u0930 \u0915\u0936\u094d\u092e\u0940\u0930",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1JxWjNRU0FtaHBLQUFQAQ",
+                        0.0
+                    ],
+                    "Amit Shah": [
+                        "\u0905\u092e\u093f\u0924 \u0936\u093e\u0939",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F6YzJzekVnSm9hU2dBUAE",
+                        0.0
+                    ],
+                    "Bihar": [
+                        "\u092c\u093f\u0939\u093e\u0930",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREk1TUhKaUVnSm9hU2dBUAE",
+                        0.0
+                    ],
+                    "jury": [
+                        "\u092a\u0902\u091a\u093e\u092f\u0924",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGMwZVRodUVnSm9hU2dBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "India",
+                "region": "Asia",
+                "coordinates": [
+                    79.611976,
+                    22.885782
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=th&gl=TH",
+            "properties": {
+                "kw": {
+                    "Lushali": [
+                        "\u0e41\u0e22\u0e01\u0e25\u0e33\u0e2a\u0e32\u0e25\u0e35",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4TWpWbWJYWVNBblJvS0FBUAE",
+                        0.0
+                    ],
+                    "a cat": [
+                        "\u0e41\u0e21\u0e27",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREY1Y25nU0FuUm9LQUFQAQ",
+                        0.0
+                    ],
+                    "Thailand": [
+                        "\u0e1b\u0e23\u0e30\u0e40\u0e17\u0e28\u0e44\u0e17\u0e22",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGRtTVhnU0FuUm9LQUFQAQ",
+                        0.0
+                    ],
+                    "National Peace Corps": [
+                        "\u0e04\u0e13\u0e30\u0e23\u0e31\u0e01\u0e29\u0e32\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e07\u0e1a\u0e41\u0e2b\u0e48\u0e07\u0e0a\u0e32\u0e15\u0e34",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV3Y1hKdE1qY1NBblJvS0FBUAE",
+                        0.0
+                    ],
+                    "Southern": [
+                        "\u0e20\u0e32\u0e04\u0e43\u0e15\u0e49",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFV5Y3psd0VnSjBhQ2dBUAE",
+                        0.0
+                    ],
+                    "Election Commission": [
+                        "\u0e04\u0e13\u0e30\u0e01\u0e23\u0e23\u0e21\u0e01\u0e32\u0e23\u0e01\u0e32\u0e23\u0e40\u0e25\u0e37\u0e2d\u0e01\u0e15\u0e31\u0e49\u0e07",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR2Q2Tlhwc0VnSjBhQ2dBUAE",
+                        0.0
+                    ],
+                    "amphetamine": [
+                        "\u0e22\u0e32\u0e1a\u0e49\u0e32",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR05mY1RZMUVnSjBhQ2dBUAE",
+                        0.0
+                    ],
+                    "Meteorological Department": [
+                        "\u0e01\u0e23\u0e21\u0e2d\u0e38\u0e15\u0e38\u0e19\u0e34\u0e22\u0e21\u0e27\u0e34\u0e17\u0e22\u0e32",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSFppTTNCdGJCSUNkR2dvQUFQAQ",
+                        0.0
+                    ],
+                    "Fire": [
+                        "\u0e2d\u0e31\u0e04\u0e04\u0e35\u0e20\u0e31\u0e22",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4TTE5bU1YUVNBblJvS0FBUAE",
+                        0.0
+                    ],
+                    "Prayer": [
+                        "\u0e1b\u0e23\u0e30\u0e22\u0e38\u0e17\u0e18\u0e4c \u0e08\u0e31\u0e19\u0e17\u0e23\u0e4c\u0e42\u0e2d\u0e0a\u0e32",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR28yTW13MVl4SUNkR2dvQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Thailand",
+                "region": "Asia",
+                "coordinates": [
+                    101.002881,
+                    15.118158
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=bg&gl=BG",
+            "properties": {
+                "kw": {
+                    "Rumen Radev": [
+                        "\u0420\u0443\u043c\u0435\u043d \u0420\u0430\u0434\u0435\u0432",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqY25kNWNuSTRNaElDWW1jb0FBUAE",
+                        0.0
+                    ],
+                    "Nikolay Banev": [
+                        "\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0411\u0430\u043d\u0435\u0432",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl3YkhjMmVEZ1NBbUpuS0FBUAE",
+                        0.0
+                    ],
+                    "Vasil Levski": [
+                        "\u0412\u0430\u0441\u0438\u043b \u041b\u0435\u0432\u0441\u043a\u0438",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE5tTjJab0VnSmlaeWdBUAE",
+                        0.0
+                    ],
+                    "Varna": [
+                        "\u0412\u0430\u0440\u043d\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3g0WnpZU0FtSm5LQUFQAQ",
+                        0.0
+                    ],
+                    "Party of European Socialists": [
+                        "\u041f\u0430\u0440\u0442\u0438\u044f \u043d\u0430 \u0435\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u043a\u0438\u0442\u0435 \u0441\u043e\u0446\u0438\u0430\u043b\u0438\u0441\u0442\u0438",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFl3TWpZU0FtSm5LQUFQAQ",
+                        0.0
+                    ],
+                    "Belene NPP": [
+                        "\u0410\u0415\u0426 \u201e\u0411\u0435\u043b\u0435\u043d\u0435\u201c",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR2N5ZG5aZkVnSmlaeWdBUAE",
+                        0.0
+                    ],
+                    "Belene": [
+                        "\u0411\u0435\u043b\u0435\u043d\u0435",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFUxTmpBeUVnSmlaeWdBUAE",
+                        0.0
+                    ],
+                    "Sergey Stanishev": [
+                        "\u0421\u0435\u0440\u0433\u0435\u0439 \u0421\u0442\u0430\u043d\u0438\u0448\u0435\u0432",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFp1TTNaeEVnSmlaeWdBUAE",
+                        0.0
+                    ],
+                    "Alexis Tsipras": [
+                        "\u0410\u043b\u0435\u043a\u0441\u0438\u0441 \u0426\u0438\u043f\u0440\u0430\u0441",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE51Y1d4amVoSUNZbWNvQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Lower Kamares": [
+                        "\u0414\u043e\u043b\u043d\u043e \u041a\u0430\u043c\u0430\u0440\u0446\u0438",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl5ZWpkeGNqa1NBbUpuS0FBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Bulgaria",
+                "region": "Europe",
+                "coordinates": [
+                    25.215529,
+                    42.768903
+                ],
+                "score_sum": 0.6931471805599453
+            }
+        },
+        {
+            "query": "hl=ar&gl=EG",
+            "properties": {
+                "kw": {
+                    "Donald Trump": [
+                        "\u062f\u0648\u0646\u0627\u0644\u062f \u062a\u0631\u0627\u0645\u0628",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmhjaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Staffan de Mistura": [
+                        "\u0633\u062a\u0627\u0641\u0627\u0646 \u062f\u064a \u0645\u064a\u0633\u062a\u0648\u0631\u0627",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qY21Oalp4SUNZWElvQUFQAQ",
+                        0.0
+                    ],
+                    "Cyprus": [
+                        "\u0642\u0628\u0631\u0635",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ3Y0hFU0FtRnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Syria": [
+                        "\u0633\u0648\u0631\u064a\u0627",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFoyWW1RU0FtRnlLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Rex Tillerson": [
+                        "\u0631\u064a\u0643\u0633 \u062a\u064a\u0644\u0631\u0633\u0648\u0646",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmhjaWdBUAE",
+                        1.9459101490553132
+                    ],
+                    "Sana&#39;a": [
+                        "\u0635\u0646\u0639\u0627\u0621",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1o1WXpVU0FtRnlLQUFQAQ",
+                        1.3862943611198906
+                    ],
+                    "Wajdi Ghunaim": [
+                        "\u0648\u062c\u062f\u064a \u063a\u0646\u064a\u0645",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFY2Y1dOdU14SUNZWElvQUFQAQ",
+                        0.0
+                    ],
+                    "Russia": [
+                        "\u0631\u0648\u0633\u064a\u0627",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFppYm5vU0FtRnlLQUFQAQ",
+                        1.6094379124341003
+                    ],
+                    "United State": [
+                        "\u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmhjaWdBUAE",
+                        1.0986122886681098
+                    ],
+                    "China": [
+                        "\u0627\u0644\u0635\u064a\u0646",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TlhjekVnSmhjaWdBUAE",
+                        1.9459101490553132
+                    ]
+                },
+                "nation": "Egypt",
+                "region": "Africa",
+                "coordinates": [
+                    29.861901,
+                    26.495933
+                ],
+                "score_sum": 12.262830979348783
+            }
+        },
+        {
+            "query": "hl=tr&gl=TR",
+            "properties": {
+                "kw": {
+                    "Bartin": [
+                        "Bart\u0131n",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREowTnpreUVnSjBjaWdBUAE",
+                        0.0
+                    ],
+                    "View Mansur&#39;s Full Profile": [
+                        "Mansur Yava\u015f",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSHAwYXpob054SUNkSElvQUFQAQ",
+                        0.0
+                    ],
+                    "France": [
+                        "Fransa",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1k0YkRsakVnSjBjaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Feto / PCM": [
+                        "FET\u00d6/PDY",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqY0RWek9IUnFNUklDZEhJb0FBUAE",
+                        0.0
+                    ],
+                    "Kirkuk": [
+                        "Kerk\u00fck",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqT1dKNEVnSjBjaWdBUAE",
+                        0.0
+                    ],
+                    "Republican People&#39;s Party": [
+                        "Cumhuriyet Halk Partisi",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREkwT0hac0VnSjBjaWdBUAE",
+                        0.0
+                    ],
+                    "Fair Orphan": [
+                        "Adil \u00d6ks\u00fcz",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqTVhoelkyUnFkaElDZEhJb0FBUAE",
+                        0.0
+                    ],
+                    "Recep Tayyip Erdogan": [
+                        "Recep Tayyip Erdo\u011fan",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREl4TWpjMUVnSjBjaWdBUAE",
+                        0.0
+                    ],
+                    "Istanbul": [
+                        "\u0130stanbul",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGs1TkRsdEVnSjBjaWdBUAE",
+                        0.0
+                    ],
+                    "USA": [
+                        "ABD",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSjBjaWdBUAE",
+                        0.6931471805599453
+                    ]
+                },
+                "nation": "Turkey",
+                "region": "Asia",
+                "coordinates": [
+                    35.168953,
+                    39.061603
+                ],
+                "score_sum": 1.3862943611198906
+            }
+        },
+        {
+            "query": "hl=ru&gl=RU",
+            "properties": {
+                "kw": {
+                    "Rex Tillerson": [
+                        "\u0420\u0435\u043a\u0441 \u0422\u0438\u043b\u043b\u0435\u0440\u0441\u043e\u043d",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSnlkU2dBUAE",
+                        1.9459101490553132
+                    ],
+                    "Donald trump": [
+                        "\u0414\u043e\u043d\u0430\u043b\u044c\u0434 \u0422\u0440\u0430\u043c\u043f",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSnlkU2dBUAE",
+                        0.0
+                    ],
+                    "Alexey Anatolyevich Navalny": [
+                        "\u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0410\u043d\u0430\u0442\u043e\u043b\u044c\u0435\u0432\u0438\u0447 \u041d\u0430\u0432\u0430\u043b\u044c\u043d\u044b\u0439",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR1JzYkd4ak5oSUNjblVvQUFQAQ",
+                        0.0
+                    ],
+                    "Russia": [
+                        "\u0420\u043e\u0441\u0441\u0438\u044f",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFppYm5vU0FuSjFLQUFQAQ",
+                        1.6094379124341003
+                    ],
+                    "Lithuania": [
+                        "\u041b\u0438\u0442\u0432\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJuZW1RU0FuSjFLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Bulgaria": [
+                        "\u0411\u043e\u043b\u0433\u0430\u0440\u0438\u044f",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREUxY1dnU0FuSjFLQUFQAQ",
+                        0.0
+                    ],
+                    "Roskomnadzor": [
+                        "\u0420\u043e\u0441\u043a\u043e\u043c\u043d\u0430\u0434\u0437\u043e\u0440",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE51ZERNM01SSUNjblVvQUFQAQ",
+                        0.0
+                    ],
+                    "Syria": [
+                        "\u0421\u0438\u0440\u0438\u044f",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFoyWW1RU0FuSjFLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Ukraine": [
+                        "\u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGQwTWpFU0FuSjFLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Red caviar": [
+                        "\u041a\u0440\u0430\u0441\u043d\u0430\u044f \u0438\u043a\u0440\u0430",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSGRrZVc1a01oSUNjblVvQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Russia",
+                "region": "Europe",
+                "coordinates": [
+                    96.686561,
+                    61.980522
+                ],
+                "score_sum": 6.4457198193855785
+            }
+        },
+        {
+            "query": "hl=es-419&gl=VE",
+            "properties": {
+                "kw": {
+                    "Belisario Betancur": [
+                        "Belisario Betancur",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREYzT0RsekVnWmxjeTAwTVRrb0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "Group of Lima": [
+                        "Grupo de Lima",
+                        "CAAqLQgKIidDQkFTRndvTkwyY3ZNVEZtTTE5Nk16QnhlUklHWlhNdE5ERTVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Petro": [
+                        "Petro",
+                        "CAAqLQgKIidDQkFTRndvTkwyY3ZNVEZvT1hkb2RHWmpjaElHWlhNdE5ERTVLQUFQAQ",
+                        0.0
+                    ],
+                    "Luis Almagro": [
+                        "Luis Almagro",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNR3N6YW01NU1oSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "Venezuela": [
+                        "Venezuela",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGQ1YkdvU0JtVnpMVFF4T1NnQVAB",
+                        1.0986122886681098
+                    ],
+                    "Nicol\u00e1s Maduro": [
+                        "Nicol\u00e1s Maduro",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNR2czYUdJMEVnWmxjeTAwTVRrb0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Peru": [
+                        "Per\u00fa",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREUyZDNwM0VnWmxjeTAwTVRrb0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Organization of Petroleum Exporting Countries": [
+                        "Organizaci\u00f3n de Pa\u00edses Exportadores de Petr\u00f3leo",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREUyTlY5a0VnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Michelle Bachelet": [
+                        "Michelle Bachelet",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNRE4zZDNOZkVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Petroleum": [
+                        "Petr\u00f3leo",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZ5WDJvU0JtVnpMVFF4T1NnQVAB",
+                        1.9459101490553132
+                    ]
+                },
+                "nation": "Venezuela",
+                "region": "South America",
+                "coordinates": [
+                    -66.181841,
+                    7.124224
+                ],
+                "score_sum": 6.915723448631314
+            }
+        },
+        {
+            "query": "hl=bn&gl=BD",
+            "properties": {
+                "kw": {
+                    "Bangladesh Chhatra League": [
+                        "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u099b\u09be\u09a4\u09cd\u09b0\u09b2\u09c0\u0997",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qWnpZeE9SSUNZbTRvQUFQAQ",
+                        0.0
+                    ],
+                    "Miss World Bangladesh": [
+                        "\u09ae\u09bf\u09b8 \u0993\u09af\u09bc\u09be\u09b0\u09cd\u09b2\u09cd\u09a1 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTUd0MmEzZHVPQklDWW00b0FBUAE",
+                        0.0
+                    ],
+                    "Grand alliance": [
+                        "\u09ae\u09b9\u09be\u099c\u09cb\u099f",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFkxWHpVMWRoSUNZbTRvQUFQAQ",
+                        0.0
+                    ],
+                    "Ganobhaban": [
+                        "\u0997\u09a3\u09ad\u09ac\u09a8",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSE5uWm1jd05CSUNZbTRvQUFQAQ",
+                        0.0
+                    ],
+                    "Bangladesh Awami League": [
+                        "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u0986\u0993\u09af\u09bc\u09be\u09ae\u09c0 \u09b2\u09c0\u0997",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREkwT1dNNUVnSmliaWdBUAE",
+                        0.0
+                    ],
+                    "Bangladesh Nationalist Party": [
+                        "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u099c\u09be\u09a4\u09c0\u09af\u09bc\u09a4\u09be\u09ac\u09be\u09a6\u09c0 \u09a6\u09b2",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREYwTUc1ckVnSmliaWdBUAE",
+                        0.0
+                    ],
+                    "Sheikh Hasina": [
+                        "\u09b6\u09c7\u0996 \u09b9\u09be\u09b8\u09bf\u09a8\u09be",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREo0Y3pVeUVnSmliaWdBUAE",
+                        0.0
+                    ],
+                    "Bangladesh Election Commission": [
+                        "\u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09a8\u09bf\u09b0\u09cd\u09ac\u09be\u099a\u09a8 \u0995\u09ae\u09bf\u09b6\u09a8",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFUxWWpZeWVCSUNZbTRvQUFQAQ",
+                        0.0
+                    ],
+                    "Mirza Fakhrul Islam Alamgir": [
+                        "\u09ae\u09bf\u09b0\u09cd\u099c\u09be \u09ab\u0996\u09b0\u09c1\u09b2 \u0987\u09b8\u09b2\u09be\u09ae \u0986\u09b2\u09ae\u0997\u09c0\u09b0",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR28zYlY5bmFCSUNZbTRvQUFQAQ",
+                        0.0
+                    ],
+                    "Obaidul Quader": [
+                        "\u0993\u09ac\u09be\u09af\u09bc\u09a6\u09c1\u09b2 \u0995\u09be\u09a6\u09c7\u09b0",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSGRtZW5BMU1SSUNZbTRvQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Bangladesh",
+                "region": "Asia",
+                "coordinates": [
+                    90.238127,
+                    23.867312
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=es-419&gl=MX",
+            "properties": {
+                "kw": {
+                    "Joaqu\u00edn Guzm\u00e1n Loera": [
+                        "Joaqu\u00edn Guzm\u00e1n Loera",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNR0p1T0c0eUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Mars": [
+                        "Marte",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGxqZDNNU0JtVnpMVFF4T1NnQVAB",
+                        1.9459101490553132
+                    ],
+                    "Andr\u00e9s Manuel L\u00f3pez Obrador": [
+                        "Andr\u00e9s Manuel L\u00f3pez Obrador",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNRE0xYlRkekVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "InSight": [
+                        "InSight",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNR2h1T1cxZlpoSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "Charlottesville": [
+                        "Charlottesville",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRzF3TTJ3U0JtVnpMVFF4T1NnQVAB",
+                        0.6931471805599453
+                    ],
+                    "Bosques de las Lomas": [
+                        "Bosques de las Lomas",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNSGszZDNRemNoSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "Generation Y": [
+                        "Generaci\u00f3n Y",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREV6Tkd0cUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "POT": [
+                        "NASA",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZtTkhBU0JtVnpMVFF4T1NnQVAB",
+                        0.0
+                    ],
+                    "Veracruz": [
+                        "Veracruz",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNR2RmWjJ3U0JtVnpMVFF4T1NnQVAB",
+                        0.0
+                    ],
+                    "Mathematics": [
+                        "Matem\u00e1tica",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFJ5YW1jU0JtVnpMVFF4T1NnQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "Mexico",
+                "region": "North America",
+                "coordinates": [
+                    -102.523452,
+                    23.947537
+                ],
+                "score_sum": 2.6390573296152584
+            }
+        },
+        {
+            "query": "hl=id&gl=ID",
+            "properties": {
+                "kw": {
+                    "Prabowo Subianto": [
+                        "Prabowo Subianto",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGcxWW5KcUVnSnBaQ2dBUAE",
+                        0.0
+                    ],
+                    "Surabaya": [
+                        "Surabaya",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZtTkhoa0VnSnBaQ2dBUAE",
+                        0.0
+                    ],
+                    "Bahar bin Smith": [
+                        "Bahar bin Smith",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTldwdVpHNWpaaElDYVdRb0FBUAE",
+                        0.0
+                    ],
+                    "Earthquake": [
+                        "Gempa bumi",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREp5T1RjU0FtbGtLQUFQAQ",
+                        0.0
+                    ],
+                    "Joko Widodo": [
+                        "Joko Widodo",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR1J6WXpBNU14SUNhV1FvQUFQAQ",
+                        0.0
+                    ],
+                    "Candidates for civil servants": [
+                        "Calon Pegawai Negeri Sipil",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4WW5jd2F6Y1NBbWxrS0FBUAE",
+                        0.0
+                    ],
+                    "Bogor": [
+                        "Bogor",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFEyT1hZekVnSnBaQ2dBUAE",
+                        0.0
+                    ],
+                    "Jakarta": [
+                        "Jakarta",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFEwY25ZU0FtbGtLQUFQAQ",
+                        0.0
+                    ],
+                    "Anies Baswedan": [
+                        "Anies Baswedan",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREoyY25ONWJCSUNhV1FvQUFQAQ",
+                        0.0
+                    ],
+                    "Tornado": [
+                        "Puting beliung",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1o1TjNNU0FtbGtLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Indonesia",
+                "region": "Asia",
+                "coordinates": [
+                    117.240114,
+                    -2.215055
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=no&gl=NO",
+            "properties": {
+                "kw": {
+                    "Orderud case": [
+                        "Orderud-saken",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSEJqWm5RMGF4SUNibThvQUFQAQ",
+                        0.0
+                    ],
+                    "Oslo": [
+                        "Oslo",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZzTmpRU0FtNXZLQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSnVieWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "VIPPS": [
+                        "Vipps",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpZUdNM2FEbHpNUklDYm04b0FBUAE",
+                        0.0
+                    ],
+                    "Abid Raja": [
+                        "Abid Raja",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFI0YUhsekVnSnVieWdBUAE",
+                        0.0
+                    ],
+                    "Trine Skei Grande": [
+                        "Trine Skei Grande",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREo2T0c1bU5oSUNibThvQUFQAQ",
+                        0.0
+                    ],
+                    "Tor Mikkel Wara": [
+                        "Tor Mikkel Wara",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREo0TlhOcVl4SUNibThvQUFQAQ",
+                        0.0
+                    ],
+                    "Norway": [
+                        "Norge",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZpTkhjU0FtNXZLQUFQAQ",
+                        0.0
+                    ],
+                    "apprehension": [
+                        "P\u00e5gripelse",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpTm1wek5UWjRaeElDYm04b0FBUAE",
+                        0.0
+                    ],
+                    "Left": [
+                        "Venstre",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFJzYUd0b0VnSnVieWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Norway",
+                "region": "Europe",
+                "coordinates": [
+                    9.001427,
+                    62.11474
+                ],
+                "score_sum": 3.1780538303479458
+            }
+        },
+        {
+            "query": "hl=cs&gl=CZ",
+            "properties": {
+                "kw": {
+                    "FC Viktoria Plzen": [
+                        "FC Viktoria Plze\u0148",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0prY25BNUVnSmpjeWdBUAE",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkelov\u00e1",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtTnpLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Brazil": [
+                        "Braz\u00edlie",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREUxWm5JU0FtTnpLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Milo\u0161 Zeman": [
+                        "Milo\u0161 Zeman",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE14YzJObkVnSmpjeWdBUAE",
+                        0.0
+                    ],
+                    "Security Information Service": [
+                        "Bezpe\u010dnostn\u00ed informa\u010dn\u00ed slu\u017eba",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1J3YzJNNEVnSmpjeWdBUAE",
+                        0.0
+                    ],
+                    "Christian-Democratic Union": [
+                        "K\u0159es\u0165anskodemokratick\u00e1 unie",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FtTnpLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Jaroslav Kuber": [
+                        "Jaroslav Kubera",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl5YW5FNU5HMFNBbU56S0FBUAE",
+                        0.0
+                    ],
+                    "FC Fastav Zl\u00edn": [
+                        "FC Fastav Zl\u00edn",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1E1TjNockVnSmpjeWdBUAE",
+                        0.0
+                    ],
+                    "Czechia": [
+                        "\u010cesko",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0YW5FU0FtTnpLQUFQAQ",
+                        0.0
+                    ],
+                    "Senate of the Parliament of the Czech Republic": [
+                        "Sen\u00e1t Parlamentu \u010cesk\u00e9 republiky",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0ppWmpacUVnSmpjeWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Czechia",
+                "region": "Europe",
+                "coordinates": [
+                    15.312402,
+                    49.733412
+                ],
+                "score_sum": 5.723585101952382
+            }
+        },
+        {
+            "query": "hl=lt&gl=LT",
+            "properties": {
+                "kw": {
+                    "Kaunas Zalgiris": [
+                        "Kauno \u017dalgiris",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE0zY25BekVnSnNkQ2dBUAE",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FteDBLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Agroconcern group": [
+                        "Agrokoncerno grup\u0117",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVEpzYm1keWJUTXhFZ0pzZENnQVAB",
+                        0.0
+                    ],
+                    "K\u0119stutis Navickas": [
+                        "K\u0119stutis Navickas",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqTVc1b2JtNWZNaElDYkhRb0FBUAE",
+                        0.0
+                    ],
+                    "Lithuania": [
+                        "Lietuva",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJuZW1RU0FteDBLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Ministry of Foreign Affairs of the Republic of Lithuania": [
+                        "Lietuvos Respublikos u\u017esienio reikal\u0173 ministerija",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFJuYldoME9CSUNiSFFvQUFQAQ",
+                        0.0
+                    ],
+                    "Luki\u0161ki\u0173 aik\u0161t\u0117": [
+                        "Luki\u0161ki\u0173 aik\u0161t\u0117",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp4YmpSamRoSUNiSFFvQUFQAQ",
+                        0.0
+                    ],
+                    "Russia": [
+                        "Rusija",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFppYm5vU0FteDBLQUFQAQ",
+                        1.6094379124341003
+                    ],
+                    "Lithuanian Peasant and Green Union": [
+                        "Lietuvos valstie\u010di\u0173 ir \u017eali\u0173j\u0173 s\u0105junga",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE5qWWpoc0VnSnNkQ2dBUAE",
+                        0.0
+                    ],
+                    "Pirate Olympiacos": [
+                        "Pir\u0117jo Olympiacos",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1ozT1haNEVnSnNkQ2dBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Lithuania",
+                "region": "Europe",
+                "coordinates": [
+                    23.887194,
+                    55.32611
+                ],
+                "score_sum": 5.8289456176102075
+            }
+        },
+        {
+            "query": "hl=he&gl=IL",
+            "properties": {
+                "kw": {
+                    "Shmuel Plato-Sharon": [
+                        "\u05e9\u05de\u05d5\u05d0\u05dc \u05e4\u05dc\u05d0\u05d8\u05d5-\u05e9\u05e8\u05d5\u05df",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRGx5ZEhreFp4SUNhWGNvQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "\u05d3\u05d5\u05e0\u05dc\u05d3 \u05d8\u05e8\u05d0\u05de\u05e4",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSnBkeWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Sarah Netanyahu": [
+                        "\u05e9\u05e8\u05d4 \u05e0\u05ea\u05e0\u05d9\u05d4\u05d5",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR28xZDJ4d1l4SUNhWGNvQUFQAQ",
+                        0.0
+                    ],
+                    "Naftali Bennett": [
+                        "\u05e0\u05e4\u05ea\u05dc\u05d9 \u05d1\u05e0\u05d8",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR2M1ZWprMFpCSUNhWGNvQUFQAQ",
+                        0.0
+                    ],
+                    "Hamas": [
+                        "\u05d7\u05de\u05d0\u05e1",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE50Tm1vU0FtbDNLQUFQAQ",
+                        0.0
+                    ],
+                    "Benjamin Netanyahu": [
+                        "\u05d1\u05e0\u05d9\u05de\u05d9\u05df \u05e0\u05ea\u05e0\u05d9\u05d4\u05d5",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1p0TW1nU0FtbDNLQUFQAQ",
+                        0.0
+                    ],
+                    "Israel": [
+                        "\u05d9\u05e9\u05e8\u05d0\u05dc",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE56Y0hvU0FtbDNLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Angela Merkel": [
+                        "\u05d0\u05e0\u05d2\u05dc\u05d4 \u05de\u05e8\u05e7\u05dc",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtbDNLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Rex Tilerson": [
+                        "\u05e8\u05e7\u05e1 \u05d8\u05d9\u05dc\u05e8\u05e1\u05d5\u05df",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSnBkeWdBUAE",
+                        0.0
+                    ],
+                    "Institute for Intelligence and Special Functions": [
+                        "\u05d4\u05de\u05d5\u05e1\u05d3 \u05dc\u05de\u05d5\u05d3\u05d9\u05e2\u05d9\u05df \u05d5\u05dc\u05ea\u05e4\u05e7\u05d9\u05d3\u05d9\u05dd \u05de\u05d9\u05d5\u05d7\u05d3\u05d9\u05dd",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE53Y25nU0FtbDNLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Israel",
+                "region": "Asia",
+                "coordinates": [
+                    35.004447,
+                    31.461101
+                ],
+                "score_sum": 7.803026643632217
+            }
+        },
+        {
+            "query": "hl=es-419&gl=CO",
+            "properties": {
+                "kw": {
+                    "Belisario Betancur": [
+                        "Belisario Betancur",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREYzT0RsekVnWmxjeTAwTVRrb0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNR3BzTUdjU0JtVnpMVFF4T1NnQVAB",
+                        3.5263605246161616
+                    ],
+                    "Group of Lima": [
+                        "Grupo de Lima",
+                        "CAAqLQgKIidDQkFTRndvTkwyY3ZNVEZtTTE5Nk16QnhlUklHWlhNdE5ERTVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Venezuela": [
+                        "Venezuela",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGQ1YkdvU0JtVnpMVFF4T1NnQVAB",
+                        1.0986122886681098
+                    ],
+                    "Deportivo Independiente Medell\u00edn": [
+                        "Deportivo Independiente Medell\u00edn",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNRFZ1Y2w5d0VnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Avengers: the war of infinity - 2nd part": [
+                        "Vengadores: la guerra del infinito \u2013 2da parte",
+                        "CAAqKggKIiRDQkFTRlFvTEwyMHZNREV5Tm1JNGEzWVNCbVZ6TFRReE9TZ0FQAQ",
+                        0.6931471805599453
+                    ],
+                    "Nicol\u00e1s Maduro": [
+                        "Nicol\u00e1s Maduro",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNR2czYUdJMEVnWmxjeTAwTVRrb0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Peru": [
+                        "Per\u00fa",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREUyZDNwM0VnWmxjeTAwTVRrb0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Brazil": [
+                        "Brasil",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNREUxWm5JU0JtVnpMVFF4T1NnQVAB",
+                        1.0986122886681098
+                    ],
+                    "Junior of Barranquilla": [
+                        "Junior de Barranquilla",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNRGRqYW5veUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Colombia",
+                "region": "South America",
+                "coordinates": [
+                    -73.081146,
+                    3.913834
+                ],
+                "score_sum": 10.287933293420217
+            }
+        },
+        {
+            "query": "hl=it&gl=IT",
+            "properties": {
+                "kw": {
+                    "Silvio Berlusconi": [
+                        "Silvio Berlusconi",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFp3T0RNU0FtbDBLQUFQAQ",
+                        0.0
+                    ],
+                    "Teatro alla Scala": [
+                        "Teatro alla Scala",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGx5YUdnU0FtbDBLQUFQAQ",
+                        0.0
+                    ],
+                    "Juventus Football Club": [
+                        "Juventus Football Club",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFExZUhnU0FtbDBLQUFQAQ",
+                        0.0
+                    ],
+                    "Democratic party": [
+                        "Partito Democratico",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREkzZGprNGVoSUNhWFFvQUFQAQ",
+                        0.0
+                    ],
+                    "Censis": [
+                        "Censis",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRzVpWm5keWFoSUNhWFFvQUFQAQ",
+                        0.0
+                    ],
+                    "Marco Bucci": [
+                        "Marco Bucci",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZuT0haMmNtZzRNQklDYVhRb0FBUAE",
+                        0.0
+                    ],
+                    "International Football Club Milan": [
+                        "Football Club Internazionale Milano",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE40Tm0wU0FtbDBLQUFQAQ",
+                        0.0
+                    ],
+                    "Matteo Renzi": [
+                        "Matteo Renzi",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFozTTJjM2FoSUNhWFFvQUFQAQ",
+                        0.0
+                    ],
+                    "Genoa": [
+                        "Genova",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2hyYm1ZU0FtbDBLQUFQAQ",
+                        0.0
+                    ],
+                    "Chile": [
+                        "Cile",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ3TVhZU0FtbDBLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Italy",
+                "region": "Europe",
+                "coordinates": [
+                    12.070013,
+                    42.796626
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=zh-TW&gl=TW",
+            "properties": {
+                "kw": {
+                    "Jiang Wanan": [
+                        "\u8523\u842c\u5b89",
+                        "CAAqKggKIiRDQkFTRlFvTUwyY3ZNWGx0WDJ3eGNYbHdFZ1Y2YUMxVVZ5Z0FQAQ",
+                        0.0
+                    ],
+                    "Zhu Lilun": [
+                        "\u6731\u7acb\u502b",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRFV5TkRsbU1CSUZlbWd0VkZjb0FBUAE",
+                        0.0
+                    ],
+                    "Korean Yu": [
+                        "\u97d3\u570b\u745c",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyY3ZNVFUxY1hoMk5uTVNCWHBvTFZSWEtBQVAB",
+                        0.0
+                    ],
+                    "Hao Longbin": [
+                        "\u90dd\u9f8d\u658c",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNR1F6TW14dEVnVjZhQzFVVnlnQVAB",
+                        0.0
+                    ],
+                    "Lai Qingde": [
+                        "\u8cf4\u6e05\u5fb7",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRFY2WHpabk5oSUZlbWd0VkZjb0FBUAE",
+                        0.0
+                    ],
+                    "Luodong Night Market": [
+                        "\u7f85\u6771\u591c\u5e02",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRjluZDNkaU1oSUZlbWd0VkZjb0FBUAE",
+                        0.0
+                    ],
+                    "Nana": [
+                        "\u8cb4\u5a66\u5948\u5948",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyY3ZNVFUxY0djemN6WVNCWHBvTFZSWEtBQVAB",
+                        0.0
+                    ],
+                    "Ke Wenzhe": [
+                        "\u67ef\u6587\u54f2",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyMHZNREV4ZG14d2FsOFNCWHBvTFZSWEtBQVAB",
+                        0.0
+                    ],
+                    "Wang Shijian": [
+                        "\u738b\u4e16\u5805",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyY3ZNVFUxY1hremEza1NCWHBvTFZSWEtBQVAB",
+                        0.0
+                    ],
+                    "Pancreatic cancer": [
+                        "\u80f0\u81df\u764c",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNREZmY1dOZkVnVjZhQzFVVnlnQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "Taiwan",
+                "region": "Asia",
+                "coordinates": [
+                    120.954273,
+                    23.753993
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=hu&gl=HU",
+            "properties": {
+                "kw": {
+                    "First Primissimo prize": [
+                        "Prima Primissima d\u00edj",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4TVhGd01HY1NBbWgxS0FBUAE",
+                        0.0
+                    ],
+                    "Budapest": [
+                        "Budapest",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGsxZDE4U0FtaDFLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Christian Democratic Union": [
+                        "Kereszt\u00e9nydemokrata Uni\u00f3",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FtaDFLQUFQAQ",
+                        1.6094379124341003
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtaDFLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Budapest Liszt Ferenc International Airport": [
+                        "Budapest Liszt Ferenc nemzetk\u00f6zi rep\u00fcl\u0151t\u00e9r",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFU1Y0hGb0VnSm9kU2dBUAE",
+                        0.0
+                    ],
+                    "Mercedes-Benz": [
+                        "Mercedes-Benz",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFV5YlhnU0FtaDFLQUFQAQ",
+                        0.0
+                    ],
+                    "Huawei": [
+                        "Huawei",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZ4YTJ3eEVnSm9kU2dBUAE",
+                        1.0986122886681098
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR00yYzNKdGFoSUNhSFVvQUFQAQ",
+                        2.1972245773362196
+                    ],
+                    "Germany": [
+                        "N\u00e9metorsz\u00e1g",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE0wTldnU0FtaDFLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Friedrich Merz": [
+                        "Friedrich Merz",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFk1Y0d0NUVnSm9kU2dBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Hungary",
+                "region": "Europe",
+                "coordinates": [
+                    19.395591,
+                    47.162775
+                ],
+                "score_sum": 9.817929664174482
+            }
+        },
+        {
+            "query": "hl=sk&gl=SK",
+            "properties": {
+                "kw": {
+                    "Andrej Kiska": [
+                        "Andrej Kiska",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV3TURoclpIZ1NBbk5yS0FBUAE",
+                        0.0
+                    ],
+                    "National Criminal Agency Presidium of the Police Corps": [
+                        "N\u00e1rodn\u00e1 krimin\u00e1lna agent\u00fara Prez\u00eddia Policajn\u00e9ho zboru",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVzR6Tm1jNE1EVnRFZ0p6YXlnQVAB",
+                        0.0
+                    ],
+                    "Bratislava": [
+                        "Bratislava",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREUxWnpjU0FuTnJLQUFQAQ",
+                        0.0
+                    ],
+                    "Slovakia": [
+                        "Slovensko",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFp1Y0dRU0FuTnJLQUFQAQ",
+                        0.0
+                    ],
+                    "Miroslav Laj\u010d\u00e1k": [
+                        "Miroslav Laj\u010d\u00e1k",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREoyYkhJNE1CSUNjMnNvQUFQAQ",
+                        0.0
+                    ],
+                    "PENTA INVESTMENTS LIMITED": [
+                        "PENTA INVESTMENTS LIMITED",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR28zYm1ZMU1SSUNjMnNvQUFQAQ",
+                        0.0
+                    ],
+                    "Pavol Russia": [
+                        "Pavol Rusko",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0pyYW5ONUVnSnpheWdBUAE",
+                        0.0
+                    ],
+                    "Tunnel Vi\u0161\u0148ov\u00e9": [
+                        "Tunel Vi\u0161\u0148ov\u00e9",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4Y2w5ak9ERVNBbk5yS0FBUAE",
+                        0.0
+                    ],
+                    "Peter Pellegrini": [
+                        "Peter Pellegrini",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNWEUyTnpKb2VuSjRFZ0p6YXlnQVAB",
+                        0.0
+                    ],
+                    "Z\u00fcrich": [
+                        "Z\u00fcrich",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGc1TmpZU0FuTnJLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Slovakia",
+                "region": "Europe",
+                "coordinates": [
+                    19.479052,
+                    48.705475
+                ],
+                "score_sum": 0.0
+            }
+        },
+        {
+            "query": "hl=fr&gl=SN",
+            "properties": {
+                "kw": {
+                    "Cheikh-Anta-Diop University": [
+                        "Universit\u00e9 Cheikh-Anta-Diop",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFpvTVhsM0VnSm1jaWdBUAE",
+                        0.0
+                    ],
+                    "Senegal": [
+                        "S\u00e9n\u00e9gal",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFp6Y21zU0FtWnlLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Sidy Lamine Niasse": [
+                        "Sidy Lamine Niasse",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqTXpCMGFuZHdOaElDWm5Jb0FBUAE",
+                        0.0
+                    ],
+                    "Touba": [
+                        "Touba",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFZuTkRjM0VnSm1jaWdBUAE",
+                        0.0
+                    ],
+                    "Alioune Sarr": [
+                        "Alioune Sarr",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVEp1ZG5Cak5EVndFZ0ptY2lnQVAB",
+                        0.0
+                    ],
+                    "Thies": [
+                        "Thi\u00e8s",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFZuTTE5akVnSm1jaWdBUAE",
+                        0.0
+                    ],
+                    "Senegalese sugar company": [
+                        "Compagnie sucri\u00e8re s\u00e9n\u00e9galaise",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl3ZG1KeU9YUVNBbVp5S0FBUAE",
+                        0.0
+                    ],
+                    "Tivaouane": [
+                        "Tivaouane",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxvTXprMEVnSm1jaWdBUAE",
+                        0.0
+                    ],
+                    "Deputy": [
+                        "D\u00e9put\u00e9",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE41WXpScU1oSUNabklvQUFQAQ",
+                        0.0
+                    ],
+                    "European Union": [
+                        "Union europ\u00e9enne",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRjgyZEY5Nk9CSUNabklvQUFQAQ",
+                        0.6931471805599453
+                    ]
+                },
+                "nation": "Senegal",
+                "region": "Africa",
+                "coordinates": [
+                    -14.473492,
+                    14.366242
+                ],
+                "score_sum": 1.3862943611198906
+            }
+        },
+        {
+            "query": "hl=pl&gl=PL",
+            "properties": {
+                "kw": {
+                    "Jaroslaw Kaczynski": [
+                        "Jaros\u0142aw Kaczy\u0144ski",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREo2WW1oc0VnSndiQ2dBUAE",
+                        0.0
+                    ],
+                    "Andrzej Duda": [
+                        "Andrzej Duda",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Y2pWcmNHY1NBbkJzS0FBUAE",
+                        0.0
+                    ],
+                    "Modern": [
+                        "Nowoczesna",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqTTNKcVpIbzFjUklDY0d3b0FBUAE",
+                        0.0
+                    ],
+                    "Polish Financial Supervision Authority": [
+                        "Komisja Nadzoru Finansowego",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR0p0YW1neFl4SUNjR3dvQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FuQnNLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "George HW Bush": [
+                        "George H.W. Bush",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE0wYkhNU0FuQnNLQUFQAQ",
+                        0.0
+                    ],
+                    "Law and Justice": [
+                        "Prawo i Sprawiedliwo\u015b\u0107",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREpyZW5seEVnSndiQ2dBUAE",
+                        0.0
+                    ],
+                    "Henryk Jankowski": [
+                        "Henryk Jankowski",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR2MxWDNZd0VnSndiQ2dBUAE",
+                        0.0
+                    ],
+                    "Christian Democratic Union": [
+                        "Unia Chrze\u015bcija\u0144sko-Demokratyczna",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FuQnNLQUFQAQ",
+                        1.6094379124341003
+                    ],
+                    "Poland": [
+                        "Polska",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ4YUhjU0FuQnNLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Poland",
+                "region": "Europe",
+                "coordinates": [
+                    19.390128,
+                    52.127596
+                ],
+                "score_sum": 5.135798437050262
+            }
+        },
+        {
+            "query": "hl=uk&gl=UA",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "\u0410\u043d\u0433\u0435\u043b\u0430 \u041c\u0435\u0440\u043a\u0435\u043b\u044c",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FuVnJLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Donald Trump": [
+                        "\u0414\u043e\u043d\u0430\u043b\u044c\u0434 \u0422\u0440\u0430\u043c\u043f",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSjFheWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Omelyan Volodymyr V.": [
+                        "\u041e\u043c\u0435\u043b\u044f\u043d \u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440 \u0412\u043e\u043b\u043e\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u0438\u0447",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZpTm5RemRqTjJNQklDZFdzb0FBUAE",
+                        0.0
+                    ],
+                    "Ukraine": [
+                        "\u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGQwTWpFU0FuVnJLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Mukachevo": [
+                        "\u041c\u0443\u043a\u0430\u0447\u0435\u0432\u043e",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREpmWW5ZekVnSjFheWdBUAE",
+                        0.0
+                    ],
+                    "Budapest": [
+                        "\u0411\u0443\u0434\u0430\u043f\u0435\u0448\u0442",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGsxZDE4U0FuVnJLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Ukrainian Orthodox Church (Moscow Patriarchate)": [
+                        "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u043e\u0441\u043b\u0430\u0432\u043d\u0430 \u0446\u0435\u0440\u043a\u0432\u0430 (\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u044c\u043a\u0438\u0439 \u043f\u0430\u0442\u0440\u0456\u0430\u0440\u0445\u0430\u0442)",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFptTVY4eEVnSjFheWdBUAE",
+                        0.0
+                    ],
+                    "Russia": [
+                        "\u0420\u043e\u0441\u0456\u044f",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFppYm5vU0FuVnJLQUFQAQ",
+                        1.6094379124341003
+                    ],
+                    "European Union": [
+                        "\u0404\u0432\u0440\u043e\u043f\u0435\u0439\u0441\u044c\u043a\u0438\u0439 \u0421\u043e\u044e\u0437",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRjgyZEY5Nk9CSUNkV3NvQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "NASA": [
+                        "\u041d\u0410\u0421\u0410",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZtTkhBU0FuVnJLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Ukraine",
+                "region": "Europe",
+                "coordinates": [
+                    31.383265,
+                    48.996567
+                ],
+                "score_sum": 10.798758917186207
+            }
+        },
+        {
+            "query": "hl=en-BW&gl=BW",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Far side of the Moon": [
+                        "Far side of the Moon",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Mars": [
+                        "Mars",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGxqZDNNU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "Moon": [
+                        "Moon",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtVnVLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "Petroleum": [
+                        "Petroleum",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ5WDJvU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "China": [
+                        "China",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TlhjekVnSmxiaWdBUAE",
+                        1.9459101490553132
+                    ],
+                    "Avengers: Infinity War": [
+                        "Avengers: Infinity War",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEyNFNBbVZ1S0FBUAE",
+                        1.6094379124341003
+                    ],
+                    "OPEC": [
+                        "OPEC",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUyTlY5a0VnSmxiaWdBUAE",
+                        1.0986122886681098
+                    ]
+                },
+                "nation": "Botswana",
+                "region": "Africa",
+                "coordinates": [
+                    23.798534,
+                    -22.184032
+                ],
+                "score_sum": 20.102225267151873
+            }
+        },
+        {
+            "query": "hl=es-419&gl=AR",
+            "properties": {
+                "kw": {
+                    "Belisario Betancur": [
+                        "Belisario Betancur",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREYzT0RsekVnWmxjeTAwTVRrb0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "Ciccone Case": [
+                        "Caso Ciccone",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNR281YmpZMFloSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "Athletic Club Newell&#39;s Old Boys": [
+                        "Club Atl\u00e9tico Newell's Old Boys",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNRFEwY0RSZkVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Club Atl\u00e9tico Rosario Central": [
+                        "Club Atl\u00e9tico Rosario Central",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNRFEyTUhFeUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Club Atl\u00e9tico Boca Juniors": [
+                        "Club Atl\u00e9tico Boca Juniors",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREl6ZW1RM0VnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Ricardo Echegaray": [
+                        "Ricardo Echegaray",
+                        "CAAqLAgKIiZDQkFTRmdvTUwyY3ZNVEZrZVdvNWFETm5FZ1psY3kwME1Ua29BQVAB",
+                        0.0
+                    ],
+                    "Gerardo Morales": [
+                        "Gerardo Morales",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNRFEzWnpKbWN4SUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "Argentina Soccer Cup": [
+                        "Copa Argentina de F\u00fatbol",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNRFEzWTJjMFpoSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "Brazil": [
+                        "Brasil",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNREUxWm5JU0JtVnpMVFF4T1NnQVAB",
+                        1.0986122886681098
+                    ],
+                    "Mirtha Legrand": [
+                        "Mirtha Legrand",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNRE5qWW1ZemVoSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "Argentina",
+                "region": "South America",
+                "coordinates": [
+                    -65.179807,
+                    -35.381349
+                ],
+                "score_sum": 2.4849066497880004
+            }
+        },
+        {
+            "query": "hl=el&gl=GR",
+            "properties": {
+                "kw": {
+                    "Donald Trump": [
+                        "\u039d\u03c4\u03cc\u03bd\u03b1\u03bb\u03bd\u03c4 \u03a4\u03c1\u03b1\u03bc\u03c0",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiQ2dBUAE",
+                        3.1780538303479458
+                    ],
+                    "Panos Kammenos": [
+                        "\u03a0\u03ac\u03bd\u03bf\u03c2 \u039a\u03b1\u03bc\u03bc\u03ad\u03bd\u03bf\u03c2",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR28yTkhNMGFoSUNaV3dvQUFQAQ",
+                        0.0
+                    ],
+                    "Alexis Tsipras": [
+                        "\u0391\u03bb\u03ad\u03be\u03b7\u03c2 \u03a4\u03c3\u03af\u03c0\u03c1\u03b1\u03c2",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE51Y1d4amVoSUNaV3dvQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Aristotle University of Thessaloniki": [
+                        "\u0391\u03c1\u03b9\u03c3\u03c4\u03bf\u03c4\u03ad\u03bb\u03b5\u03b9\u03bf \u03a0\u03b1\u03bd\u03b5\u03c0\u03b9\u03c3\u03c4\u03ae\u03bc\u03b9\u03bf \u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03af\u03ba\u03b7\u03c2",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE0xTmpSd0VnSmxiQ2dBUAE",
+                        0.0
+                    ],
+                    "Thessaloniki": [
+                        "\u0398\u03b5\u03c3\u03c3\u03b1\u03bb\u03bf\u03bd\u03af\u03ba\u03b7",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR0l5YldNU0FtVnNLQUFQAQ",
+                        0.0
+                    ],
+                    "Vladimir Putin": [
+                        "\u0392\u03bb\u03b1\u03bd\u03c4\u03af\u03bc\u03b9\u03c1 \u03a0\u03bf\u03cd\u03c4\u03b9\u03bd",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGd4T1RNU0FtVnNLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Exarchia": [
+                        "\u0395\u03be\u03ac\u03c1\u03c7\u03b5\u03b9\u03b1",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp4WkdJMmR4SUNaV3dvQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "\u0386\u03bd\u03b3\u03ba\u03b5\u03bb\u03b1 \u039c\u03ad\u03c1\u03ba\u03b5\u03bb",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnNLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Hellas": [
+                        "\u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE0xY1hrU0FtVnNLQUFQAQ",
+                        0.0
+                    ],
+                    "Christian Democratic Union": [
+                        "\u03a7\u03c1\u03b9\u03c3\u03c4\u03b9\u03b1\u03bd\u03bf\u03b4\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03b9\u03ba\u03ae \u0388\u03bd\u03c9\u03c3\u03b7",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FtVnNLQUFQAQ",
+                        1.6094379124341003
+                    ]
+                },
+                "nation": "Greece",
+                "region": "Europe",
+                "coordinates": [
+                    22.955558,
+                    39.074696
+                ],
+                "score_sum": 9.700146628518098
+            }
+        },
+        {
+            "query": "hl=lv&gl=LV",
+            "properties": {
+                "kw": {
+                    "Andrei Rastorguyev": [
+                        "Andrejs Rastorgujevs",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRGxuYURBM2F4SUNiSFlvQUFQAQ",
+                        0.0
+                    ],
+                    "Robert Zile": [
+                        "Roberts Z\u012ble",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFUxTTNOekVnSnNkaWdBUAE",
+                        0.0
+                    ],
+                    "Riga Dinamo": [
+                        "R\u012bgas \"Dinamo\"",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFUzZUhBMmN4SUNiSFlvQUFQAQ",
+                        0.0
+                    ],
+                    "Kekava county": [
+                        "\u0136ekavas novads",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRGMyZHpjeFpCSUNiSFlvQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkele",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FteDJLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Latvia": [
+                        "Latvija",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJuTldzU0FteDJLQUFQAQ",
+                        0.0
+                    ],
+                    "German Christian Democrats Union": [
+                        "V\u0101cijas Krist\u012bgo demokr\u0101tu apvien\u012bba",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FteDJLQUFQAQ",
+                        0.0
+                    ],
+                    "Road Safety Directorate": [
+                        "Ce\u013cu satiksmes dro\u0161\u012bbas direkcija",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqTlRWek5EWjBaaElDYkhZb0FBUAE",
+                        0.0
+                    ],
+                    "Ufa &quot;Salavat Julajev&quot;": [
+                        "Ufas \"Salavat Julajev\"",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR014WjJvMUVnSnNkaWdBUAE",
+                        0.0
+                    ],
+                    "Riga": [
+                        "R\u012bga",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFpqYmpVU0FteDJLQUFQAQ",
+                        0.0
+                    ]
+                },
+                "nation": "Latvia",
+                "region": "Europe",
+                "coordinates": [
+                    24.91236,
+                    56.850852
+                ],
+                "score_sum": 3.5263605246161616
+            }
+        },
+        {
+            "query": "hl=fr&gl=BE",
+            "properties": {
+                "kw": {
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSm1jaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Hidden face of the Moon": [
+                        "Face cach\u00e9e de la Lune",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSm1jaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Nordahl Lelandais": [
+                        "Nordahl Lelandais",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTTIxaWFuWjJjQklDWm5Jb0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtWnlLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Emmanuel Macron": [
+                        "Emmanuel Macron",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV4Ym1OeU9HTVNBbVp5S0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Daval case": [
+                        "Affaire Daval",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTTNreU9Xc3pkQklDWm5Jb0FBUAE",
+                        0.0
+                    ],
+                    "Rex Tillerson": [
+                        "Rex Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSm1jaWdBUAE",
+                        1.9459101490553132
+                    ],
+                    "Brussels-Capital Region": [
+                        "R\u00e9gion de Bruxelles-Capitale",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREUzTjNvU0FtWnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Moon": [
+                        "Lune",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtWnlLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "Mantes la Jolie": [
+                        "Mantes-la-Jolie",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZrYkhFMUVnSm1jaWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Belgium",
+                "region": "Europe",
+                "coordinates": [
+                    4.640651,
+                    50.639816
+                ],
+                "score_sum": 12.809207587379094
+            }
+        },
+        {
+            "query": "hl=es-419&gl=CL",
+            "properties": {
+                "kw": {
+                    "LATAM Airlines": [
+                        "LATAM Airlines",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREkyT1RCaUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNR3BzTUdjU0JtVnpMVFF4T1NnQVAB",
+                        3.5263605246161616
+                    ],
+                    "Japan": [
+                        "Jap\u00f3n",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRE5mTTJRU0JtVnpMVFF4T1NnQVAB",
+                        0.6931471805599453
+                    ],
+                    "Evo Morales": [
+                        "Evo Morales",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREZ3ZERKeUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Greenland": [
+                        "Groenlandia",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRE0xZGpNU0JtVnpMVFF4T1NnQVAB",
+                        0.0
+                    ],
+                    "Christian Democratic Union": [
+                        "Uni\u00f3n Dem\u00f3crata Cristiana",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNR2RuTmpnU0JtVnpMVFF4T1NnQVAB",
+                        1.6094379124341003
+                    ],
+                    "Strike": [
+                        "Huelga",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREUwT1hBekVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "police from Chile": [
+                        "Carabineros de Chile",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1J0T1daeEVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNR00yYzNKdGFoSUdaWE10TkRFNUtBQVAB",
+                        2.1972245773362196
+                    ],
+                    "Bolivia": [
+                        "Bolivia",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNREUyTlhZU0JtVnpMVFF4T1NnQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "Chile",
+                "region": "South America",
+                "coordinates": [
+                    -71.382562,
+                    -37.73071
+                ],
+                "score_sum": 8.026170194946427
+            }
+        },
+        {
+            "query": "hl=fr&gl=FR",
+            "properties": {
+                "kw": {
+                    "Hidden face of the Moon": [
+                        "Face cach\u00e9e de la Lune",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSm1jaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Festival of Lights": [
+                        "F\u00eate des Lumi\u00e8res",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1JzZGpkMEVnSm1jaWdBUAE",
+                        0.0
+                    ],
+                    "Nordahl Lelandais": [
+                        "Nordahl Lelandais",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTTIxaWFuWjJjQklDWm5Jb0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Aquarius": [
+                        "Aquarius",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNV2hvZW1keU1uWm5FZ0ptY2lnQVAB",
+                        0.6931471805599453
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtWnlLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Lyon": [
+                        "Lyon",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1J3Y21jU0FtWnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSm1jaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Muriel P\u00e9nicaud": [
+                        "Muriel P\u00e9nicaud",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNVEppTURKa2FuZHhFZ0ptY2lnQVAB",
+                        0.0
+                    ],
+                    "Moon": [
+                        "Lune",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtWnlLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "SOS Mediterranean": [
+                        "SOS M\u00e9diterran\u00e9e",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqTW5FMU1IcG5NUklDWm5Jb0FBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "France",
+                "region": "Europe",
+                "coordinates": [
+                    2.719701,
+                    47.366374
+                ],
+                "score_sum": 10.863297438323778
+            }
+        },
+        {
+            "query": "hl=en-UG&gl=UG",
+            "properties": {
+                "kw": {
+                    "Edgar Lungu": [
+                        "Edgar Lungu",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5TjNoeVpIb1NBbVZ1S0FBUAE",
+                        1.0986122886681098
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Far side of the Moon": [
+                        "Far side of the Moon",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Mars": [
+                        "Mars",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGxqZDNNU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "Moon": [
+                        "Moon",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtVnVLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "Zambia": [
+                        "Zambia",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGc0ZG1JU0FtVnVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Petroleum": [
+                        "Petroleum",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ5WDJvU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "China": [
+                        "China",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TlhjekVnSmxiaWdBUAE",
+                        1.9459101490553132
+                    ]
+                },
+                "nation": "Uganda",
+                "region": "Africa",
+                "coordinates": [
+                    32.36908,
+                    1.274693
+                ],
+                "score_sum": 19.59139964338588
+            }
+        },
+        {
+            "query": "hl=en-TZ&gl=TZ",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Far side of the Moon": [
+                        "Far side of the Moon",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Mars": [
+                        "Mars",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGxqZDNNU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "Moon": [
+                        "Moon",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtVnVLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "Petroleum": [
+                        "Petroleum",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ5WDJvU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "China": [
+                        "China",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TlhjekVnSmxiaWdBUAE",
+                        1.9459101490553132
+                    ],
+                    "Avengers: Infinity War": [
+                        "Avengers: Infinity War",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEyNFNBbVZ1S0FBUAE",
+                        1.6094379124341003
+                    ],
+                    "OPEC": [
+                        "OPEC",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUyTlY5a0VnSmxiaWdBUAE",
+                        1.0986122886681098
+                    ]
+                },
+                "nation": "Tanzania",
+                "region": "Africa",
+                "coordinates": [
+                    34.8131,
+                    -6.275654
+                ],
+                "score_sum": 20.102225267151873
+            }
+        },
+        {
+            "query": "hl=de&gl=DE",
+            "properties": {
+                "kw": {
+                    "SV Werder Bremen": [
+                        "SV Werder Bremen",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREkyTm1Ka05SSUNaR1VvQUFQAQ",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmtaU2dBUAE",
+                        3.1780538303479458
+                    ],
+                    "Rex Tillerson": [
+                        "Rex Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmtaU2dBUAE",
+                        1.9459101490553132
+                    ],
+                    "Michael Cohen": [
+                        "Michael Cohen",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqYW1vMU5qRjBjQklDWkdVb0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "birth control pills": [
+                        "Antibabypille",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ1Y25vU0FtUmxLQUFQAQ",
+                        0.0
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR00yYzNKdGFoSUNaR1VvQUFQAQ",
+                        2.1972245773362196
+                    ],
+                    "Department of State of the United States": [
+                        "Au\u00dfenministerium der Vereinigten Staaten",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGQyYzJ3U0FtUmxLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Christian Democratic Union of Germany": [
+                        "Christlich Demokratische Union Deutschlands",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FtUmxLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "1. FC Cologne": [
+                        "1. FC K\u00f6ln",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREpvYlRCdEVnSmtaU2dBUAE",
+                        0.0
+                    ],
+                    "Fortuna Dusseldorf": [
+                        "Fortuna D\u00fcsseldorf",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFk0T1d4bkVnSmtaU2dBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Germany",
+                "region": "Europe",
+                "coordinates": [
+                    10.385781,
+                    51.106982
+                ],
+                "score_sum": 10.904707495195588
+            }
+        },
+        {
+            "query": "hl=nl&gl=NL",
+            "properties": {
+                "kw": {
+                    "Death of Nicky Verstappen": [
+                        "Dood van Nicky Verstappen",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4TUhoemNIb1NBbTVzS0FBUAE",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtNXNLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSnViQ2dBUAE",
+                        3.1780538303479458
+                    ],
+                    "Italy": [
+                        "Itali\u00eb",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE55YW1vU0FtNXNLQUFQAQ",
+                        0.0
+                    ],
+                    "Nuenen": [
+                        "Nuenen",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREUwWTJ0ZkVnSnViQ2dBUAE",
+                        0.0
+                    ],
+                    "Werkhoven": [
+                        "Werkhoven",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0pvZDNZNEVnSnViQ2dBUAE",
+                        0.0
+                    ],
+                    "Christlich Demokratische Union Deutschlands": [
+                        "Christlich Demokratische Union Deutschlands",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FtNXNLQUFQAQ",
+                        0.0
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR00yYzNKdGFoSUNibXdvQUFQAQ",
+                        2.1972245773362196
+                    ],
+                    "Michael Cohen": [
+                        "Michael Cohen",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqYW1vMU5qRjBjQklDYm13b0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "Oostvaardersplassen": [
+                        "Oostvaardersplassen",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREptYmpaMEVnSnViQ2dBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Netherlands",
+                "region": "Europe",
+                "coordinates": [
+                    5.281448,
+                    52.10079
+                ],
+                "score_sum": 10.287933293420219
+            }
+        },
+        {
+            "query": "hl=pt-BR&gl=BR",
+            "properties": {
+                "kw": {
+                    "Luiz Fernando Pez\u00e3o": [
+                        "Luiz Fernando Pez\u00e3o",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyMHZNREV3YkhKak5UTVNCWEIwTFVKU0tBQVAB",
+                        0.0
+                    ],
+                    "Luiz In\u00e1cio Lula da Silva": [
+                        "Luiz In\u00e1cio Lula da Silva",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNSEJqT1hFU0JYQjBMVUpTS0FBUAE",
+                        0.0
+                    ],
+                    "Marielle Franco": [
+                        "Marielle Franco",
+                        "CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZrZUdoNk1YQnNlaElGY0hRdFFsSW9BQVAB",
+                        0.0
+                    ],
+                    "Roraima": [
+                        "Roraima",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNREYwY1Y5cUVnVndkQzFDVWlnQVAB",
+                        0.0
+                    ],
+                    "Michel Temer": [
+                        "Michel Temer",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRFJtZHpoNVpCSUZjSFF0UWxJb0FBUAE",
+                        0.0
+                    ],
+                    "Joice Hasselmann": [
+                        "Joice Hasselmann",
+                        "CAAqLAgKIiZDQkFTRmdvTkwyY3ZNVEZuTnpKdWFuZ3hOeElGY0hRdFFsSW9BQVAB",
+                        0.0
+                    ],
+                    "Lisbon": [
+                        "Lisboa",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFJzYkdJU0JYQjBMVUpTS0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Portugal": [
+                        "Portugal",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFZ5TkhjU0JYQjBMVUpTS0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Fl\u00e1vio Bolsonaro": [
+                        "Fl\u00e1vio Bolsonaro",
+                        "CAAqKQgKIiNDQkFTRkFvTEwyY3ZNVEl5Y0dSb2NXUVNCWEIwTFVKU0tBQVAB",
+                        0.0
+                    ],
+                    "Jair Bolsonaro": [
+                        "Jair Bolsonaro",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRFJuTlhFeU1CSUZjSFF0UWxJb0FBUAE",
+                        0.6931471805599453
+                    ]
+                },
+                "nation": "Brazil",
+                "region": "South America",
+                "coordinates": [
+                    -53.097831,
+                    -10.787777
+                ],
+                "score_sum": 2.0794415416798357
+            }
+        },
+        {
+            "query": "hl=en-GH&gl=GH",
+            "properties": {
+                "kw": {
+                    "Nigeria": [
+                        "Nigeria",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZqWjNZU0FtVnVLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Vladimir Putin": [
+                        "Vladimir Putin",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGd4T1RNU0FtVnVLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Isaac Dogboe": [
+                        "Isaac Dogboe",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR3RqWmpCd01CSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Edgar Lungu": [
+                        "Edgar Lungu",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5TjNoeVpIb1NBbVZ1S0FBUAE",
+                        1.0986122886681098
+                    ],
+                    "Wizkid": [
+                        "Wizkid",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR2g2Y1hKb2FCSUNaVzRvQUFQAQ",
+                        0.0
+                    ],
+                    "Manchester United F.C.": [
+                        "Manchester United F.C.",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFV3Wm1nU0FtVnVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Juventus F.C.": [
+                        "Juventus F.C.",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFExZUhnU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Inter Milan": [
+                        "Inter Milan",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE40Tm0wU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Zambia": [
+                        "Zambia",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGc0ZG1JU0FtVnVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Jos\u00e9 Mourinho": [
+                        "Jos\u00e9 Mourinho",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE0zT0dodUVnSmxiaWdBUAE",
+                        1.0986122886681098
+                    ]
+                },
+                "nation": "Ghana",
+                "region": "Africa",
+                "coordinates": [
+                    -1.216766,
+                    7.953456
+                ],
+                "score_sum": 5.78074351579233
+            }
+        },
+        {
+            "query": "hl=sr&gl=RS",
+            "properties": {
+                "kw": {
+                    "Aleksandar Vucic": [
+                        "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0430\u0440 \u0412\u0443\u0447\u0438\u045b",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5qTW1oZmRCSUNjM0lvQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "\u0410\u043d\u0433\u0435\u043b\u0430 \u041c\u0435\u0440\u043a\u0435\u043b",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FuTnlLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Serbia": [
+                        "\u0421\u0440\u0431\u0438\u0458\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGMzY1c0U0FuTnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Svetlana Ceca Raznatovic": [
+                        "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430 \u0426\u0435\u0446\u0430 \u0420\u0430\u0436\u043d\u0430\u0442\u043e\u0432\u0438\u045b",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRE5tTld0cWFCSUNjM0lvQUFQAQ",
+                        0.0
+                    ],
+                    "Ukraine": [
+                        "\u0423\u043a\u0440\u0430\u0458\u0438\u043d\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGQwTWpFU0FuTnlLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Republic of Kosovo": [
+                        "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJtYURNU0FuTnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Kosovo Liberation Army": [
+                        "\u041e\u0441\u043b\u043e\u0431\u043e\u0434\u0438\u043b\u0430\u0447\u043a\u0430 \u0432\u043e\u0458\u0441\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR00zY0RVU0FuTnlLQUFQAQ",
+                        0.0
+                    ],
+                    "White City": [
+                        "\u0411\u0435\u043e\u0433\u0440\u0430\u0434",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1pvZW1ZU0FuTnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Christian Democratic Union of Germany": [
+                        "\u0425\u0440\u0438\u0448\u045b\u0430\u043d\u0441\u043a\u043e-\u0434\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u0441\u043a\u0430 \u0443\u043d\u0438\u0458\u0430 \u041d\u0435\u043c\u0430\u0447\u043a\u0435",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FuTnlLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Russia": [
+                        "\u0420\u0443\u0441\u0438\u0458\u0430",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFppYm5vU0FuTnlLQUFQAQ",
+                        1.6094379124341003
+                    ]
+                },
+                "nation": "Serbia",
+                "region": "Europe",
+                "coordinates": [
+                    20.789583,
+                    44.221503
+                ],
+                "score_sum": 7.333023014386482
+            }
+        },
+        {
+            "query": "hl=pt-PT&gl=PT",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR3BzTUdjU0JYQjBMVkJVS0FBUAE",
+                        3.5263605246161616
+                    ],
+                    "Paris": [
+                        "Paris",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFZ4ZEdvU0JYQjBMVkJVS0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Lisbon": [
+                        "Lisboa",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFJzYkdJU0JYQjBMVkJVS0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Montepio Geral": [
+                        "Montepio Geral",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNRGxuZDNkZkVnVndkQzFRVkNnQVAB",
+                        0.0
+                    ],
+                    "Trains from Portugal": [
+                        "Comboios de Portugal",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNRE51YldKZlpoSUZjSFF0VUZRb0FBUAE",
+                        0.0
+                    ],
+                    "Portugal": [
+                        "Portugal",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNRFZ5TkhjU0JYQjBMVkJVS0FBUAE",
+                        0.6931471805599453
+                    ],
+                    "Football Club of Porto": [
+                        "Futebol Clube do Porto",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNREUzTjJkc0VnVndkQzFRVkNnQVAB",
+                        0.0
+                    ],
+                    "Portimonense Sporting Clube": [
+                        "Portimonense Sporting Clube",
+                        "CAAqJggKIiBDQkFTRWdvSkwyMHZNR055ZUdSbkVnVndkQzFRVkNnQVAB",
+                        0.0
+                    ],
+                    "Christian-Democratic Union": [
+                        "Uni\u00e3o Democrata-Crist\u00e3",
+                        "CAAqJQgKIh9DQkFTRVFvSUwyMHZNR2RuTmpnU0JYQjBMVkJVS0FBUAE",
+                        1.0986122886681098
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqKAgKIiJDQkFTRXdvS0wyMHZNR00yYzNKdGFoSUZjSFF0VUZRb0FBUAE",
+                        2.1972245773362196
+                    ]
+                },
+                "nation": "Portugal",
+                "region": "Europe",
+                "coordinates": [
+                    -8.501044,
+                    39.595507
+                ],
+                "score_sum": 8.901638932300328
+            }
+        },
+        {
+            "query": "hl=es-419&gl=PE",
+            "properties": {
+                "kw": {
+                    "Alan Garc\u00eda": [
+                        "Alan Garc\u00eda",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREY0WkRWbUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Belisario Betancur": [
+                        "Belisario Betancur",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREYzT0RsekVnWmxjeTAwTVRrb0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "National Elections Jury": [
+                        "Jurado Nacional de Elecciones",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1J0TnpSZkVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Ministry of Labor and Employment Promotion": [
+                        "Ministerio de Trabajo y Promoci\u00f3n del Empleo",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNSEJrWTNrek9SSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "Group of Lima": [
+                        "Grupo de Lima",
+                        "CAAqLQgKIidDQkFTRndvTkwyY3ZNVEZtTTE5Nk16QnhlUklHWlhNdE5ERTVLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Christian S\u00e1nchez Reyes": [
+                        "Christian S\u00e1nchez Reyes",
+                        "CAAqLQgKIidDQkFTRndvTkwyY3ZNVEZvWkRWbVlubHlPUklHWlhNdE5ERTVLQUFQAQ",
+                        0.0
+                    ],
+                    "Daniel Salaverry": [
+                        "Daniel Salaverry",
+                        "CAAqLQgKIidDQkFTRndvTkwyY3ZNVEZqTUhob2JXYzVkeElHWlhNdE5ERTVLQUFQAQ",
+                        0.0
+                    ],
+                    "Venezuela": [
+                        "Venezuela",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGQ1YkdvU0JtVnpMVFF4T1NnQVAB",
+                        1.0986122886681098
+                    ],
+                    "Popular Revolutionary American Alliance": [
+                        "Alianza Popular Revolucionaria Americana",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNR3h1WTNvU0JtVnpMVFF4T1NnQVAB",
+                        0.0
+                    ],
+                    "Avengers: the war of infinity - 2nd part": [
+                        "Vengadores: la guerra del infinito \u2013 2da parte",
+                        "CAAqKggKIiRDQkFTRlFvTEwyMHZNREV5Tm1JNGEzWVNCbVZ6TFRReE9TZ0FQAQ",
+                        0.6931471805599453
+                    ]
+                },
+                "nation": "Peru",
+                "region": "South America",
+                "coordinates": [
+                    -74.382427,
+                    -9.152804
+                ],
+                "score_sum": 4.276666119016055
+            }
+        },
+        {
+            "query": "hl=es-419&gl=CU",
+            "properties": {
+                "kw": {
+                    "Jair Bolsonaro": [
+                        "Jair Bolsonaro",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNRFJuTlhFeU1CSUdaWE10TkRFNUtBQVAB",
+                        0.6931471805599453
+                    ],
+                    "Jesus Santrich": [
+                        "Jes\u00fas Santrich",
+                        "CAAqLAgKIiZDQkFTRmdvTUwyY3ZNWEUxYW1ZNU5IWmtFZ1psY3kwME1Ua29BQVAB",
+                        0.0
+                    ],
+                    "North Korea": [
+                        "Corea del Norte",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZpTjNFU0JtVnpMVFF4T1NnQVAB",
+                        0.6931471805599453
+                    ],
+                    "Cuba": [
+                        "Cuba",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNR1F3TkhvMkVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "MERCOSUR": [
+                        "MERCOSUR",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNREZ3WkhjNEVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Senegal": [
+                        "Senegal",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRFp6Y21zU0JtVnpMVFF4T1NnQVAB",
+                        0.6931471805599453
+                    ],
+                    "Miguel D\u00edaz-Canel": [
+                        "Miguel D\u00edaz-Canel",
+                        "CAAqKQgKIiNDQkFTRkFvS0wyMHZNSEk0YmpCamJoSUdaWE10TkRFNUtBQVAB",
+                        0.0
+                    ],
+                    "tourism": [
+                        "Turismo",
+                        "CAAqKggKIiRDQkFTRlFvTEwyY3ZNVEl3ZVhKMk5tZ1NCbVZ6TFRReE9TZ0FQAQ",
+                        0.0
+                    ],
+                    "\u00c1lvaro Garc\u00eda Linera": [
+                        "\u00c1lvaro Garc\u00eda Linera",
+                        "CAAqKAgKIiJDQkFTRXdvSkwyMHZNRGxtTTJ3NUVnWmxjeTAwTVRrb0FBUAE",
+                        0.0
+                    ],
+                    "Uruguay": [
+                        "Uruguay",
+                        "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGQwZDNvU0JtVnpMVFF4T1NnQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "Cuba",
+                "region": "North America",
+                "coordinates": [
+                    -79.016054,
+                    21.622895
+                ],
+                "score_sum": 2.0794415416798357
+            }
+        },
+        {
+            "query": "hl=ro&gl=RO",
+            "properties": {
+                "kw": {
+                    "Romania": [
+                        "Rom\u00e2nia",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFpqTVhrU0FuSnZLQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FuSnZLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Klaus Iohannis": [
+                        "Klaus Iohannis",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFZ5T1daM0VnSnlieWdBUAE",
+                        0.0
+                    ],
+                    "FCSB": [
+                        "FCSB",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE50Wm5wakVnSnlieWdBUAE",
+                        0.0
+                    ],
+                    "Liviu Dragnea": [
+                        "Liviu Dragnea",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFozTVdnNU54SUNjbThvQUFQAQ",
+                        0.0
+                    ],
+                    "National Agency for Fiscal Administration": [
+                        "Agen\u021bia Na\u021bional\u0103 de Administrare Fiscal\u0103",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSFppTTNCNFh4SUNjbThvQUFQAQ",
+                        0.0
+                    ],
+                    "Chamber of Deputies of Romania": [
+                        "Camera Deputa\u021bilor din Rom\u00e2nia",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFJyYXpGaUVnSnlieWdBUAE",
+                        0.0
+                    ],
+                    "Christian-Democratic Union": [
+                        "Uniunea Cre\u0219tin-Democrat\u0103",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR2RuTmpnU0FuSnZLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Viorica D\u0103ncil\u0103": [
+                        "Viorica D\u0103ncil\u0103",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRjg0Tmw4MWFoSUNjbThvQUFQAQ",
+                        0.0
+                    ],
+                    "George Becali": [
+                        "George Becali",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRFJvY1c1ekVnSnlieWdBUAE",
+                        0.0
+                    ]
+                },
+                "nation": "Romania",
+                "region": "Europe",
+                "coordinates": [
+                    24.97293,
+                    45.852431
+                ],
+                "score_sum": 4.624972813284272
+            }
+        },
+        {
+            "query": "hl=ar&gl=AE",
+            "properties": {
+                "kw": {
+                    "Qasr al-Hosn": [
+                        "\u0642\u0635\u0631 \u0627\u0644\u062d\u0635\u0646",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREkxWDJSNWF4SUNZWElvQUFQAQ",
+                        0.0
+                    ],
+                    "Kazakhstan": [
+                        "\u0643\u0627\u0632\u0627\u062e\u0633\u062a\u0627\u0646",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFEzYkdvU0FtRnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Angela Merkel": [
+                        "\u0623\u0646\u063a\u064a\u0644\u0627 \u0645\u064a\u0631\u0643\u0644",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtRnlLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Kairouan": [
+                        "\u0627\u0644\u0642\u064a\u0631\u0648\u0627\u0646",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREkzZVRRd0VnSmhjaWdBUAE",
+                        0.0
+                    ],
+                    "United State": [
+                        "\u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRGxqTjNjd0VnSmhjaWdBUAE",
+                        1.0986122886681098
+                    ],
+                    "United Nations Security Council": [
+                        "\u0645\u062c\u0644\u0633 \u0627\u0644\u0623\u0645\u0646 \u0627\u0644\u062a\u0627\u0628\u0639 \u0644\u0644\u0623\u0645\u0645 \u0627\u0644\u0645\u062a\u062d\u062f\u0629",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGQyYm5JU0FtRnlLQUFQAQ",
+                        0.0
+                    ],
+                    "Sana&#39;a": [
+                        "\u0635\u0646\u0639\u0627\u0621",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1o1WXpVU0FtRnlLQUFQAQ",
+                        1.3862943611198906
+                    ],
+                    "North Korea": [
+                        "\u0643\u0648\u0631\u064a\u0627 \u0627\u0644\u0634\u0645\u0627\u0644\u064a\u0629",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZpTjNFU0FtRnlLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Huawei": [
+                        "\u0647\u0648\u0627\u0648\u064a",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZ4YTJ3eEVnSmhjaWdBUAE",
+                        1.0986122886681098
+                    ],
+                    "Abu Dhabi": [
+                        "\u0623\u0628\u0648\u0638\u0628\u064a",
+                        "CAAqIAgKIhpDQkFTRFFvSEwyMHZNR2Q0YWhJQ1lYSW9BQVAB",
+                        0.0
+                    ]
+                },
+                "nation": "UAE",
+                "region": "Asia",
+                "coordinates": [
+                    44.536863,
+                    24.122458
+                ],
+                "score_sum": 7.803026643632218
+            }
+        },
+        {
+            "query": "hl=ar&gl=SA",
+            "properties": {
+                "kw": {
+                    "Saudi": [
+                        "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREY2TWpFMUVnSmhjaWdBUAE",
+                        0.0
+                    ],
+                    "Donald Trump": [
+                        "\u062f\u0648\u0646\u0627\u0644\u062f \u062a\u0631\u0627\u0645\u0628",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmhjaWdBUAE",
+                        3.1780538303479458
+                    ],
+                    "Angela Merkel": [
+                        "\u0623\u0646\u063a\u064a\u0644\u0627 \u0645\u064a\u0631\u0643\u0644",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtRnlLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "Israel": [
+                        "\u0625\u0633\u0631\u0627\u0626\u064a\u0644",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE56Y0hvU0FtRnlLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Lebanon": [
+                        "\u0644\u0628\u0646\u0627\u0646",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFJvY1hvU0FtRnlLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Jamal Khashoggi": [
+                        "\u062c\u0645\u0627\u0644 \u062e\u0627\u0634\u0642\u062c\u064a",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1pqT1habkVnSmhjaWdBUAE",
+                        0.6931471805599453
+                    ],
+                    "Rex Tillerson": [
+                        "\u0631\u064a\u0643\u0633 \u062a\u064a\u0644\u0631\u0633\u0648\u0646",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmhjaWdBUAE",
+                        1.9459101490553132
+                    ],
+                    "Sana&#39;a": [
+                        "\u0635\u0646\u0639\u0627\u0621",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR1o1WXpVU0FtRnlLQUFQAQ",
+                        1.3862943611198906
+                    ],
+                    "Hizb allah": [
+                        "\u062d\u0632\u0628 \u0627\u0644\u0644\u0647",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRE50TjJRU0FtRnlLQUFQAQ",
+                        0.6931471805599453
+                    ],
+                    "Huawei": [
+                        "\u0647\u0648\u0627\u0648\u064a",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZ4YTJ3eEVnSmhjaWdBUAE",
+                        1.0986122886681098
+                    ]
+                },
+                "nation": "Saudi Arabia",
+                "region": "Asia",
+                "coordinates": [
+                    44.536863,
+                    24.122458
+                ],
+                "score_sum": 14.313284984155366
+            }
+        },
+        {
+            "query": "hl=de&gl=CH",
+            "properties": {
+                "kw": {
+                    "Syria": [
+                        "Syrien",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFoyWW1RU0FtUmxLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Donald Trump": [
+                        "Donald Trump",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmtaU2dBUAE",
+                        3.1780538303479458
+                    ],
+                    "Aquarius": [
+                        "Aquarius",
+                        "CAAqJggKIiBDQkFTRWdvTUwyY3ZNV2hvZW1keU1uWm5FZ0prWlNnQVAB",
+                        0.6931471805599453
+                    ],
+                    "Rex Tillerson": [
+                        "Rex Tillerson",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR0l5YW5CMkVnSmtaU2dBUAE",
+                        1.9459101490553132
+                    ],
+                    "Karl Barth": [
+                        "Karl Barth",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZvWTJKb0VnSmtaU2dBUAE",
+                        0.0
+                    ],
+                    "Federal Council": [
+                        "Bundesrat",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZtZWpSbUVnSmtaU2dBUAE",
+                        0.0
+                    ],
+                    "Michael Cohen": [
+                        "Michael Cohen",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZqYW1vMU5qRjBjQklDWkdVb0FBUAE",
+                        1.3862943611198906
+                    ],
+                    "Switzerland": [
+                        "Schweiz",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFp0ZW5BU0FtUmxLQUFQAQ",
+                        0.0
+                    ],
+                    "Department of State of the United States": [
+                        "Au\u00dfenministerium der Vereinigten Staaten",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGQyYzJ3U0FtUmxLQUFQAQ",
+                        1.0986122886681098
+                    ],
+                    "Annegret Kramp-Karrenbauer": [
+                        "Annegret Kramp-Karrenbauer",
+                        "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR00yYzNKdGFoSUNaR1VvQUFQAQ",
+                        2.1972245773362196
+                    ]
+                },
+                "nation": "Switzerland",
+                "region": "Europe",
+                "coordinates": [
+                    8.208675,
+                    46.797859
+                ],
+                "score_sum": 11.597854675755533
+            }
+        },
+        {
+            "query": "hl=en-ET&gl=ET",
+            "properties": {
+                "kw": {
+                    "Angela Merkel": [
+                        "Angela Merkel",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNR3BzTUdjU0FtVnVLQUFQAQ",
+                        3.5263605246161616
+                    ],
+                    "The Avengers": [
+                        "The Avengers",
+                        "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTW1oc01tTTRlUklDWlc0b0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Far side of the Moon": [
+                        "Far side of the Moon",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE40TURGekVnSmxiaWdBUAE",
+                        1.791759469228055
+                    ],
+                    "Untitled Avengers film": [
+                        "Untitled Avengers film",
+                        "CAAqJQgKIh9DQkFTRVFvTEwyMHZNREV5Tm1JNGEzWVNBbVZ1S0FBUAE",
+                        2.0794415416798357
+                    ],
+                    "Mars": [
+                        "Mars",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGxqZDNNU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "Nile Delta": [
+                        "Nile Delta",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNREpvY0dkbUVnSmxiaWdBUAE",
+                        0.0
+                    ],
+                    "Moon": [
+                        "Moon",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFIzZGw4U0FtVnVLQUFQAQ",
+                        2.0794415416798357
+                    ],
+                    "Egypt": [
+                        "Egypt",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREpyTlRRU0FtVnVLQUFQAQ",
+                        0.0
+                    ],
+                    "Petroleum": [
+                        "Petroleum",
+                        "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFZ5WDJvU0FtVnVLQUFQAQ",
+                        1.9459101490553132
+                    ],
+                    "China": [
+                        "China",
+                        "CAAqIggKIhxDQkFTRHdvSkwyMHZNR1F3TlhjekVnSmxiaWdBUAE",
+                        1.9459101490553132
+                    ]
+                },
+                "nation": "Ethiopia",
+                "region": "Africa",
+                "coordinates": [
+                    39.600801,
+                    8.622787
+                ],
+                "score_sum": 17.394175066049662
+            }
+        }
+    ]
+}

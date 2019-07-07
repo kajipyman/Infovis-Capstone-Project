@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compare Articles</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:800|Roboto:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="comp.css">
+    <script src="./lib/d3.js"></script>
+</head>
+<body>
+<div style="display:flex">
+    <div style="width:5%;"></div>
+    <div style="width:100%">
+        <div class="header_all" id="keyword"></div>
+        <div style="width:auto; display:flex" id="parent"></div>
+    </div>
+    <div style="width:5%;"></div>
+
+</div>
+<script type="text/javascript">
+
+// クエリパーサ
+var num, init_num;
+var arg = {};
+var queries = location.href.split("?")[1]
+    .replace(/&quot;/g, "\"")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&#39;/g, "\'")
+    .replace(/&amp;/g, "&")
+    .split('&');
+for (let i=0; queries[i]; i++) {
+    var kv = queries[i].split('=');
+    arg[kv[0]] = kv[1];
+}
+
+arg["kw"] = arg["kw"]
+    .replace("&", "&amp;")
+    .replace("\"", "&quot;")
+    .replace("<", "&lt;")
+    .replace(">", "&gt;")
+    .replace("\'", "&#39;");
+hl = [];
+gl = [];
+id = [];
+
+// 国の数
+for (let i = 0;; i++){
+    if (arg["id" + (i + 1)] === void 0) {
+        num = init_num = i;
+        break;
+    }
+}
+
+for (let i = 0; i < init_num; i++){
+    hl.push(arg["hl" + (i + 1)]);
+    gl.push(arg["gl" + (i + 1)]);
+    id.push(arg["id" + (i + 1)]);
+}
+
+// 翻訳機能
+var lang = "en";
+var l = "";
+
+d3.select("#keyword")
+    .text(decodeURI(arg["kw"])
+        .replace(/&quot;/g, "\"")
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&#39;/g, "\'")
+        .replace(/&amp;/g, "&"))
+    .append("span").attr("class", "lang_button").text("Change to Japanese...")
+    .on("click", function () {
+        if(d3.select(".lang_button").text() === "Change to Japanese..."){
+            lang = "ja";
+            l = "_jp";
+            d3.select(".lang_button").text("Change to English...");
+        }else if(d3.select(".lang_button").text() === "Change to English..."){
+            lang = "en";
+            l = "";
+            d3.select(".lang_button").text("Change to Japanese...");
+        }
+        for (let i = 0; i < init_num; i++){
+            d3.json("./storage/rss" + l + "/hl=" + hl[i] + "&gl=" + gl[i] + "/" + id[i] + ".json").then(function (data) {
+                data.content.map(function(d, j) {
+                    d3.select("#article_" + i + "_" + j).select("a")
+                        .attr("href", make_url(data, d))
+                        .text(d.title
+                            .replace(/&quot;/g, "\"")
+                            .replace(/&lt;/g, "<")
+                            .replace(/&gt;/g, ">")
+                            .replace(/&#39;/g, "\'")
+                            .replace(/&amp;/g, "&")
+                        );
+                    d3.select("#article_" + i + "_" + j + "_").select("a")
+                        .attr("href", make_url(data, d))
+                        .text(d.title
+                            .replace(/&quot;/g, "\"")
+                            .replace(/&lt;/g, "<")
+                            .replace(/&gt;/g, ">")
+                            .replace(/&#39;/g, "\'")
+                            .replace(/&amp;/g, "&")
+                        );
+                }
+            )})
+        }
+    });
+
+// 国ごとのカラムの大枠作成
+var nation_sect = [];
+for (let i = 0; i < init_num; i++){
+    nation_sect.push(
+        d3.select("#parent")
+            .append("div")
+            .attr("class", "nation_root")
+            .attr("style", "width:" + (100 / init_num) + "%; margin: 1px;")
+            .attr("id", "nation" + i)
+    );
+}
+
+// 記事のリンク生成(言語の設定と同じ言語のサイトは翻訳しない)
+function make_url(data, d){
+    return data.language.slice(0,2) === lang
+        ? d.link
+        : "http://translate.google.co.jp/translate?hl=" + lang + "&sl=" + data.language.slice(0,2) + "&u=" + d.link;
+}
+
+// 記事ソート
+function sort_article(i, mode) {
+    let ar = Array.prototype.slice.call(d3.select("#nation" + i).select(".content_nation").selectAll(".article")._groups[0]);
+    let date_list = ar.map(function (val) {
+        if (mode === "top"){
+            return Number(val.id.slice(10,))
+        }
+        else if (mode === "date_descending"){
+            return val.children[2].children[0].textContent;
+        }
+        else if (mode === "date_ascending"){
+            return val.children[2].children[0].textContent;
+        }
+    });
+    if (mode === "date_descending"){
+        d3.select("#nation" + i).select(".content_nation").selectAll(".article").data(date_list).sort(d3.descending);
+    }else{
+        d3.select("#nation" + i).select(".content_nation").selectAll(".article").data(date_list).sort(d3.ascending);
+    }
+}
+
+// 各カラムに記事のパネルを作成
+for (let i = 0; i < init_num; i++){
+    d3.json("./storage/rss/hl=" + hl[i] + "&gl=" + gl[i] + "/" + id[i] + ".json").then(function (data) {
+        // 国名部分
+        let head = nation_sect[i]
+            .append("div")
+            .attr("class", "header_nation")
+            .on("mouseover", function () {
+                nation_sect[i].select("div").select("img").style("display", "inline");
+            })
+            .on("mouseout", function () {
+                nation_sect[i].select("div").select("img").style("display", "none");
+            });
+        // ソートボタン
+        let top_btn = head.append("button").attr("class", "btn_top").attr("type", "button").text("Top");
+        top_btn.on("click", function(){
+            top_btn.attr("class", "btn_top");
+            date_btn.attr("class", "btn_date_none").text("Date");
+            return sort_article(i, "top");
+        });
+        let date_btn = head.append("button").attr("class", "btn_date_none").attr("type", "button").text("Date");
+        date_btn.on("click", function () {
+            top_btn.attr("class", "btn_top_none");
+            date_btn.attr("class", "btn_date");
+            if(date_btn.text() === "Date ▼"){
+                date_btn.text("Date ▲");
+                sort_article(i, "date_ascending");
+            }else{
+                date_btn.text("Date ▼");
+                sort_article(i, "date_descending");
+            }
+
+        });
+        // 閉じるボタン
+        head.append("img")
+            .attr("class", "close_button")
+            .attr("src", "./img/close.png")
+            .on("click", function () {
+                d3.select("#nation" + i).remove();
+                d3.selectAll(".nation_root")
+                    .attr("style", "width:" + (100 / --num) + "%; margin: 1px;")
+            });
+        d3.json("./nation_table.json").then(function (data) {
+            head.attr("class", "header_nation_" + data[gl[i]][1].replace(" ", ""));
+            head.append("span")
+                .attr("class", "nation_name")
+                .text(data[gl[i]][0]);
+        });
+
+        head.append("span")
+            .attr("class", "nation_get_time")
+            .text("Update: " + data.get_time);
+
+        let pinned_articles_div = nation_sect[i]
+            .append("div")
+            .attr("class", "pinned_content_nation");
+        let articles_div = nation_sect[i]
+            .append("div")
+            .attr("class", "content_nation");
+
+        // 記事部分
+        let articles = data.content.map(function(d, j) {
+            let article_frame = articles_div.append("div")
+                .attr("class", "article")
+                .attr("id", "article_" + i + "_" + j);
+            let article_head = article_frame
+                .append("div")
+                .attr("class", "article_title");
+            article_frame
+                .on("mouseover", function () {
+                    article_head.select("img").style("display", "inline");
+                })
+                .on("mouseout", function () {
+                    article_head.select("img").style("display", "none");
+                });
+
+            article_head.append("a")
+                .attr("target", "_brank")
+                .attr("href", make_url(data, d))
+                .text(d.title
+                    .replace(/&quot;/g, "\"")
+                    .replace(/&lt;/g, "<")
+                    .replace(/&gt;/g, ">")
+                    .replace(/&#39;/g, "\'")
+                    .replace(/&amp;/g, "&")
+                );
+            article_head.append("img")
+                .attr("class", "close_button")
+                .attr("src", "./img/pin.png")
+                .on("click", function (){
+                    d3.select("#article_" + i + "_" + j)
+                        .style("display", "none");
+                    article_frame = pinned_articles_div.append("div")
+                        .attr("class", "article")
+                        .attr("id", "article_" + i + "_" + j + "_");
+                    let article_head = article_frame
+                        .append("div")
+                        .attr("class", "pinned_article_title");
+                    if(lang === "en"){
+                        article_head.append("a")
+                            .attr("target", "_brank")
+                            .style("color", "#eeeeee")
+                            .attr("href", make_url(data, d))
+                            .text(d.title
+                                .replace(/&quot;/g, "\"")
+                                .replace(/&lt;/g, "<")
+                                .replace(/&gt;/g, ">")
+                                .replace(/&#39;/g, "\'")
+                                .replace(/&amp;/g, "&")
+                            );
+                    }else{
+                        d3.json("./storage/rss" + l + "/hl=" + hl[i] + "&gl=" + gl[i] + "/" + id[i] + ".json").then(function (da) {
+                            article_head.append("a")
+                                .attr("target", "_brank")
+                                .style("color", "#eeeeee")
+                                .attr("href", make_url(data, d))
+                                .text(da.content[j].title
+                                .replace(/&quot;/g, "\"")
+                                .replace(/&lt;/g, "<")
+                                .replace(/&gt;/g, ">")
+                                .replace(/&#39;/g, "\'")
+                                .replace(/&amp;/g, "&")
+                            );
+                        })
+                    }
+
+                    article_head.append("img")
+                        .attr("class", "pinned_button")
+                        .attr("src", "./img/pin_white.png")
+                        .on("click", function (){
+                            d3.select("#article_" + i + "_" + j + "_").remove();
+                            d3.select("#article_" + i + "_" + j)
+                                .style("display", "block");
+                        });
+                    article_frame
+                        .append("div")
+                        .attr("class", "article_desc")
+                        .text(function () {
+                            if (d.desc.length > 100){ return d.desc.slice(0, 100) + " ..."; }
+                            else { return d.desc; }
+                        });
+                    let info_frame = article_frame
+                        .append("div")
+                        .attr("class", "article_info");
+
+                    info_frame
+                        .append("span")
+                        .attr("class", "article_info_date")
+                        .text(d.pub_date);
+                    info_frame
+                        .append("span")
+                        .attr("class", "article_info_src")
+                        .append("a")
+                        .attr("target", "_brank")
+                        .attr("href", d.source_url)
+                        .text(d.source_nm);
+                });
+            article_frame
+                .append("div")
+                .attr("class", "article_desc")
+                .text(function () {
+                    if (d.desc.length > 100){ return d.desc.slice(0, 100) + " ..."; }
+                    else { return d.desc; }
+                });
+            let info_frame = article_frame
+                .append("div")
+                .attr("class", "article_info");
+
+            info_frame
+                .append("span")
+                .attr("class", "article_info_date")
+                .text(d.pub_date);
+            info_frame
+                .append("span")
+                .attr("class", "article_info_src")
+                .append("a")
+                .attr("target", "_brank")
+                .attr("href", d.source_url)
+                .text(d.source_nm);
+
+        });
+
+    });
+}
+
+</script>
+<script src="./graph.js"></script>
+
+</body>
+</html>

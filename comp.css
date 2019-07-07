@@ -1,0 +1,318 @@
+body {
+    background-color: #eeeeee
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a.white{
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header_all {
+    position: relative;
+    margin: 2px;
+    padding: 15px 20px 70px 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    background-color: #e0e0e0;
+    color: #222222;
+    box-shadow: 1px 1px 4px gray;
+}
+
+.lang_button {
+    position:absolute;
+    bottom: 10px;
+    left: 20px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+
+}
+
+.lang_button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header_nation {
+    position:relative;
+    height: 22px;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    color: #222222;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.nation_get_time {
+    float: right;
+    position:absolute;
+    bottom: 5px;
+    right: 20px;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.header_nation_Asia {
+    position:relative;
+    height: 22px;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #ccffcc;
+    color: #222222;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.header_nation_Africa {
+    position:relative;
+    height: 22px;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #ffffb3;
+    color: #222222;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.header_nation_Europe {
+    position:relative;
+    height: 22px;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #CCFFFF;
+    color: #222222;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.header_nation_NorthAmerica {
+    position:relative;
+    height: 22px;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #ffd9b3;
+    color: #222222;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.header_nation_Oceania {
+    position:relative;
+    height: 22px;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #fff2f2;
+    color: #222222;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.header_nation_SouthAmerica {
+    position:relative;
+    height: 22px;
+    margin: 2px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #ffb3b3;
+    color: #222222;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.nation_color_SouthAmerica {
+    display: inline-block;
+    color: #FF6666;
+}
+
+.close_button {
+    position:absolute;
+    padding: 5px;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    display: none;
+    float: right;
+    cursor: pointer;
+}
+
+.pinned_button {
+    position:absolute;
+    padding: 5px;
+    top: 5px;
+    right: 5px;
+    width: 14px;
+    height: 14px;
+    display: inline;
+    float: right;
+    cursor: pointer;
+}
+
+.btn_top {
+    border: 1px solid #555555;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #555555;
+    padding: 2px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    font-size: 10px;
+    top: 22px;
+    right: 70px;
+    color: white;
+    width: 50px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.btn_top_none {
+    border: 1px solid #555555;
+    border-radius: 4px 0px 0px 4px;
+    background-color: #f9f9f9;
+    padding: 2px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    font-size: 10px;
+    top: 22px;
+    right: 70px;
+    color: #555555;
+    width: 50px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.btn_date {
+    border: 1px solid #555555;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #555555;
+    padding: 2px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    font-size: 10px;
+    top: 22px;
+    right: 20px;
+    color: white;
+    width: 50px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.btn_date_none {
+    border: 1px solid #555555;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #f9f9f9;
+    padding: 2px;
+    text-align: center;
+    display: inline;
+    position: absolute;
+    font-size: 10px;
+    top: 22px;
+    right: 20px;
+    color: #555555;
+    width: 50px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.pinned_content_nation {
+    background-color: transparent;
+}
+
+.content_nation {
+    overflow:auto;
+    height:700px;
+    background-color: transparent;
+}
+
+.article {
+    position:relative;
+    margin: 3px;
+    min-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    box-shadow: 2px 2px 1px gray;
+}
+
+.pinned_article_title {
+    background-color: #555555;
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4em;
+    color: #eeeeee;
+}
+
+.article_title {
+    background-color: #e0e0e0;
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.article_desc {
+    padding: 15px 20px 3px 20px;
+    line-height: 1.3em;
+    font-size: 12px;
+    background-color: white;
+}
+
+.article_info {
+    font-size: 10px;
+    font-weight: 300;
+    color: #333333;
+    height: 25px;
+}
+
+.article_info_src {
+    padding: 7px 5px 5px 10px;
+    float: right;
+
+}
+
+.article_info_date {
+    padding: 7px 20px 5px 5px;
+    float: right;
+}
+
+.graph_svg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+}
+
+.area {
+    fill: lightsteelblue;
+}
+
+.tick text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}

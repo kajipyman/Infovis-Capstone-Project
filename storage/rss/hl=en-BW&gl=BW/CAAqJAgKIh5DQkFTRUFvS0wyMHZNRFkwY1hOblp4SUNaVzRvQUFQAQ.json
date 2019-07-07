@@ -1,0 +1,47 @@
+{
+    "src_link": "https://news.google.com/topics/CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFkwY1hOblp4SUNaVzRvQUFQAQ?hl=en-BW&gl=BW&ceid=BW:en",
+    "language": "en-BW",
+    "get_time": "2018-12-08 13:33:01 GMT",
+    "content": [
+        {
+            "title": "You may be happy about Microsoft's adoption of Chromium, but Mozilla thinks it is bad for competition - BetaNews",
+            "link": "https://betanews.com/2018/12/07/reaction-to-microsoft-edge-chromium/",
+            "pub_date": "2018-12-07 15:01:34 GMT",
+            "source_nm": "BetaNews",
+            "source_url": "https://betanews.com",
+            "desc": ""
+        },
+        {
+            "title": "Both Chromium and Firefox are coming to native Windows on ARM - Neowin",
+            "link": "https://www.neowin.net/news/both-chromium-and-firefox-are-coming-to-native-windows-on-arm/",
+            "pub_date": "2018-12-06 19:32:00 GMT",
+            "source_nm": "Neowin",
+            "source_url": "https://www.neowin.net",
+            "desc": "Alongside an announcement of its next-generation Compute Platform, Qualcomm also announced that Chromium and Firefox will be coming to Windows on ..."
+        },
+        {
+            "title": "Microsoft To Go Chromium Update: Confirmed - iProgrammer",
+            "link": "https://www.i-programmer.info/news/86-browsers/12349-microsoft-to-go-chromium-who-needs-a-browser.html",
+            "pub_date": "2018-12-07 16:54:47 GMT",
+            "source_nm": "iProgrammer",
+            "source_url": "https://www.i-programmer.info",
+            "desc": ""
+        },
+        {
+            "title": "Google Chrome Code Will Power The Next Microsoft Edge Browser - Forbes",
+            "link": "https://www.forbes.com/sites/leemathews/2018/12/06/google-chrome-code-will-power-the-next-microsoft-edge-browser/",
+            "pub_date": "2018-12-06 20:58:00 GMT",
+            "source_nm": "Forbes",
+            "source_url": "https://www.forbes.com",
+            "desc": "Once upon a time, Internet Explorer ruled the World Wide Web. As time went on, IE languished and was knocked off its perch by Firefox and Google Chrome. Then Microsoft fought back with a new browser called Edge. Image: Microsoft Edge was new inside and out, built to provide the best browsing experience on Windows 10. That was three years ago. Today, despite the fact that it\u2019s an excellent browser, Edge is still struggling to draw much of a crowd. Clearly Microsoft decided that it was time for a dramatic shift in strategy. The company has announced that it\u2019s going to completely overhaul Edge..."
+        },
+        {
+            "title": "Microsoft may reboot its Windows web browser again - Fast Company",
+            "link": "https://www.fastcompany.com/90276339/microsoft-may-reboot-its-windows-web-browser-again",
+            "pub_date": "2018-12-04 14:10:46 GMT",
+            "source_nm": "Fast Company",
+            "source_url": "https://www.fastcompany.com",
+            "desc": "When Microsoft launched Windows 10 in 2015, it came with a new web browser called Edge, which replaced the aging Internet Explorer as the default and offered interesting new features such as Cortana suggestions and page annotation. Now, sources tell Windows Central that Microsoft plans to throw out that browser and build a new one based on Chromium, an open-source engine that was originally used in Google Chrome. The new browser is reportedly codenamed \u201cAnaheim,\u201d and Microsoft could introduce it next year. While Edge has some interesting ideas, and it generally feels slicker and more respon..."
+        }
+    ]
+}

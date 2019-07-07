@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>News-Vis</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="./lib/d3.js"></script>
+        <script src="./lib/d3-geo-projection.js"></script>
+        <script src="./lib/topojson.js"></script>
+        <script src="./lib/d3.layout.cloud.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300|Roboto+Condensed:300&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    </head>
+<body>
+<script type="text/javascript">
+/*
+first_time,last_timeのみ設定してください。
+*/
+var first_time = new Date("2018/12/06 0:00");
+var last_time = new Date("2018/12/07 23:00");
+var time_buf = 0;
+var time_range = (last_time-first_time)/3600000;
+var timeScale = d3.scaleLinear().domain([0, 980]).range([0, time_range]);
+var year = String(first_time.getFullYear());
+var month = String(first_time.getMonth()+1);
+if(month < 10){
+  month = '0' + String(month);
+}
+var day = String(first_time.getDate());
+if(day < 10){
+  day = '0' + String(day);
+}
+var hour = first_time.getHours();
+if(hour < 10){
+  hour = '0' + String(hour);
+}
+var time = new Date(year + "/" + month + "/" + day + " " + hour + ":00");
+var csv_file = "./storage/csv/" + year + month + day + hour + ".csv";
+var json_file = "./storage/json/" + year + month + day + hour + ".json";
+time.setHours(time.getHours()-9);
+year = String(time.getFullYear());
+month = String(time.getMonth()+1);
+if(month < 10){
+  month = '0' + String(month);
+}
+day = String(time.getDate());
+if(day < 10){
+  day = '0' + String(day);
+}
+hour = time.getHours();
+if(hour < 10){
+  hour = '0' + String(hour);
+}
+var click_flag = false;
+var check_count = 0;
+var target_keyword;
+var y_position;
+var width = 1500,
+    height = 700;
+var radius = d3.scaleSqrt()
+    .domain([0, 10])
+    .range([0, 40]);//40
+var proj = d3.geoMercator()
+    .center([0, 20])
+    .translate([width/2, height/2])
+    .scale(210);
+    //.scale(210);
+var path = d3.geoPath()
+    .projection (proj);
+var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
+var timeLabel = svg.append("text").attr("class", "timeLabel").attr("text-anchor", "end")
+              .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 320).attr("y", height-10)
+              .text(year + "/" + month + "/" + day + " " + hour + ":00");
+time.setHours(time.getHours()+9);
+var features = svg.append("g");
+function renderWorld(world) {
+    // Graticule
+    features.append("path")
+        .datum(d3.geoGraticule())
+        .attr("class", "graticule")
+        .attr("d", path);
+    // world land
+    features.selectAll("countries")
+        .data(topojson.feature(world, world.objects.countries).features)
+        .enter().append("path")
+        .attr("d", path)
+        .attr("fill", "lightgrey");
+    // country borders
+    features.append("path")
+        .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+        .attr("class", "border")
+        .attr("d", path)
+        .attr("fill", "lightgrey")
+        .attr("stroke", "lightgrey");
+}
+function renderBubbles(nodes) {
+    var node = svg.selectAll("circle")
+        .data(nodes).enter().append("g")
+        .attr("class", "node_group")
+        .attr("transform", function (d) {
+            return "translate(" + d.x + ", " + d.y + ")";
+        });
+    var circles = node.append("circle")
+        .attr("r", function(d) {
+            if(radius(d.r) > 0){return d.r;}
+            else{return 0;}
+        })
+        .attr("fill", function (d) {
+            var dic = {
+                "Asia": "#99FF99",
+                "Africa": "#FFFF66",
+                "North America": "#FF9933",
+                "South America": "#FF6666",
+                "Europe": "#CCFFFF",
+                "Oceania": "#FFCCCC"
+            };
+            return dic[d.re];
+        })
+        .attr("stroke", "black")
+        .on("mouseover", circleover)
+        .on("mouseout", circleout)
+        .on("click", circleclick);
+
+    var texts = node.append("text").data(nodes).attr("class", "circle_text");
+    //node.append("title").text(function(d) {
+    //  var pop_up = ""
+    //  for(var i=0; i<10; i++){
+    //    pop_up += d.kw[i] + "\n";
+    //  }
+    //  return d.n + "\n\n" + pop_up;
+    //});
+    node.selectAll("text")
+        .append("tspan")
+        .attr("dominant-baseline", "central")
+        .attr("text-anchor", "middle")
+        .attr("x", 0)
+        .attr("y", "0em")
+        .attr("font-size", function(d){return Math.min(d.r*3/d.n.length, 16)})
+        .attr("font-family", "'Roboto', sans-serif")
+        .attr("fill", function (d) {
+            if (d.r*3/d.n.length > 10){
+                return "black";
+            }
+            else {return "none";}
+        })
+        .text(function(d) {return d.n;});
+    var simulation = d3.forceSimulation(nodes)
+        .velocityDecay(0.6)//どんくらい速く収束するか
+        .force("x", d3.forceX().x(function(d) { return d.x; }))
+        .force("y", d3.forceY().y(function(d) { return d.y; }))
+        .force("collide", d3.forceCollide().radius(function(d) { return d.r }).strength(1))
+        .on("tick", function() {
+           node.attr("transform", function (d) {
+               return "translate(" + d.x + ", " + d.y + ")";
+           });
+        });
+}
+function circleover(data){
+  if(click_flag && this.attributes.fill.nodeValue === "lightgrey"){
+    d3.select(this).attr("fill", "lime").attr("opacity", 0.5);
+  }
+}
+function circleout(data){
+  if(click_flag && this.attributes.fill.nodeValue === "lime" && this.attributes.opacity.nodeValue === "0.5"){
+    d3.select(this).attr("fill", "lightgrey").attr("opacity", 1.0);
+  }
+}
+function circleclick(data){
+  if(click_flag){
+    //console.log(this.attributes.opacity.nodeValue);
+    if(this.attributes.opacity.nodeValue === "0.5"){
+      d3.select(this).attr("opacity", 1);
+      check_count += 1;
+      buttonMode();
+    }
+    else if(this.attributes.opacity.nodeValue === "1"){
+      d3.select(this).attr("opacity", 0.5);
+      check_count -= 1;
+      buttonMode();
+    }
+  }
+}
+function DorlingCartogram(json_file){
+  d3.json(json_file).then(function (points) {
+      var nodes = points.features.map(function(d) {
+          var point = proj(d.properties.coordinates);
+          var kw_list = []
+          for(key in d.properties.kw){
+            kw_list.push(key);
+          }
+          //console.log(kw_list);
+          return {
+            x: point[0], y: point[1],
+            r: radius(d.properties.score_sum),
+            n: d.properties.nation,
+            re: d.properties.region,
+            kw: kw_list,
+            q: d.query,
+            id: d.properties.kw
+          }
+        });
+      //console.log(nodes);
+      renderBubbles(nodes);
+
+      var stop_flag = false;
+      d3.selectAll("circle").on("mousemove", tooltip)
+      .on("click", function(data){
+        stop_flag = !stop_flag;
+        if(stop_flag){
+          d3.selectAll(".tool_tip").attr("fill-opacity", 1);
+          d3.selectAll(".tool_tip_text").attr("fill-opacity", 1).on("click", function(){
+            d3.selectAll(".word").remove("g");
+            let num = Math.round((d3.event.pageY-y_position-10)/25-2);
+            //console.log(num);
+            if(num < 0){num = 0;}
+            if(num > 9){num = 9;}
+            d3.selectAll(".tool_tip").remove("g");
+            d3.selectAll(".tool_tip_text").remove("g");
+            target_keyword = data.kw[num];
+
+            var keyLabel = svg.append("text").attr("class", "keyLabel").attr("text-anchor", "start")
+                          .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 5).attr("y", height-60);
+            d3.selectAll(".keyLabel").text(target_keyword
+            .replace(/&quot;/g, "\"")
+            .replace(/&lt;/g, "<")
+            .replace(/&gt;/g, ">")
+            .replace(/&#39;/g, "\'")
+            .replace(/&amp;/g, "&"));
+            var circles = d3.selectAll("circle").attr("class", (d, i) => "node_" + i);
+            var nodes = []
+            for(var i=0; i<circles._groups[0].length; i++){
+              if(circles._groups[0][i].__data__.kw.indexOf(target_keyword)!==-1){
+                nodes.push(circles._groups[0][i].__data__);
+              }
+            }
+            d3.selectAll("circle").remove("g");
+            d3.selectAll(".circle_text").remove("g");
+            for(var i=0; i<nodes.length; i++){
+              nodes[i].r = 70;
+            }
+            renderBubbles(nodes);
+            click_flag = true;
+            d3.selectAll("circle").attr("fill", "lightgrey")
+            .on("mouseover", circleover)
+            .on("mouseout", circleout)
+            .on("click", circleclick);
+          });
+        }
+        else{
+          d3.selectAll(".tool_tip").attr("fill-opacity", 0.8);
+          d3.selectAll(".tool_tip_text").attr("fill-opacity", 0.8);
+        }
+      })
+      .on("mouseout", function(){if(!stop_flag){d3.selectAll(".tool_tip").remove("g");d3.selectAll(".tool_tip_text").remove("g");}});
+
+      function tooltip(data){
+        //console.log(data.n);
+        if(!stop_flag){
+          d3.selectAll(".tool_tip").remove("g");
+          d3.selectAll(".tool_tip_text").remove("g");
+          var x_position = d3.event.pageX;
+          y_position = d3.event.pageY;
+          if(d3.event.pageY > height-300){
+            y_position = height-320;
+          }
+          var rect = svg.append("rect")
+              .attr("class", "tool_tip")
+              .attr("height", 300)
+              .attr("x", d3.event.pageX)
+              .attr("y", y_position)
+              .attr("fill", "white")
+              .attr("fill-opacity", 0.8)
+              .attr("stroke", "black")
+          svg.append("text")
+                .attr("font-family", "'Roboto', sans-serif")
+                .attr("font-weight", "bold")
+                .attr("class", "tool_tip")
+                .attr("x", d3.event.pageX+10)
+                .attr("y", y_position+20)
+                .text(data.n);
+
+          var len = 0;
+          for(var i=0; i<10; i++){
+            svg.append("text")
+                  .attr("font-family", "'Roboto', sans-serif")
+                  .attr("class", "tool_tip_text")
+                  .attr("x", d3.event.pageX+10)
+                  .attr("y", y_position+10+(i+2)*25)
+                  .text(data.kw[i].replace(/&quot;/g, "\"")
+                  .replace(/&lt;/g, "<")
+                  .replace(/&gt;/g, ">")
+                  .replace(/&#39;/g, "\'")
+                  .replace(/&amp;/g, "&"));
+            if(len < data.kw[i].length){
+              len = data.kw[i].length;
+            }
+          }
+          rect.attr("width", len*8.5+10);
+          if(d3.event.pageX > width-len*8.5-10){
+            d3.selectAll(".tool_tip").attr("x", d3.event.pageX-len*8.5-10);
+            d3.selectAll(".tool_tip_text").attr("x", d3.event.pageX-len*8.5-10);
+            rect.attr("x", d3.event.pageX-len*8.5-20);
+          }
+        }
+    }
+  });
+}
+function WordCloud(csv_file){
+  var word_width = 350;
+  var word_height = 650;
+  d3.csv(csv_file).then(function(data){
+  var word_data = [];
+  var j = 0;
+  for(var i=0; i<data.length; i++){
+    if(data[i].count!=1){
+      word_data[j] = data[i];
+      j += 1;
+    }
+  }
+  //word_data = data;//このコメントアウト消したら全キーワード表示ができるよ
+  var fontSize = d3.scaleLinear().domain([0,1]).range([20,40]);
+  var layout = d3.layout.cloud()
+        .size([word_width, word_height])//描画範囲の決定
+        .timeInterval(20)
+        .words(word_data)
+        .rotate(function(d) {return 0;})
+        .fontSize(function(d){return Math.min(d.count*2+10, 32);})
+        .fontWeight(["bold"])
+        .text(function(d) { return d.keyword
+            .replace(/&quot;/g, "\"")
+            .replace(/&lt;/g, "<")
+            .replace(/&gt;/g, ">")
+            .replace(/&#39;/g, "\'")
+            .replace(/&amp;/g, "&");})
+        //.spiral("rectangular") // "archimedean" or "rectangular"
+        .on("end", draw)
+        .start();
+  var wordcloud = svg.append("g")
+        .attr("class","wordcloud")
+        .attr("transform", "translate(" + word_width/2 + "," + word_height/2 + ")");
+  svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + word_height + ")")
+        .selectAll("text");
+  function draw(words) {
+      //d3.selectAll(".wordcloud").attr("fill", "none");
+      wordcloud.selectAll("text")
+          .data(words)
+          .enter().append("text")
+          .attr("class","word")
+          //.attr("fill", "black")
+          .attr("font-size", function(d) { return d.size + "px"; })
+          .attr("font-family", "'Roboto Condensed', sans-serif")
+          .attr("text-anchor", "middle")
+          .attr("transform", function(d) { return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")"; })
+          .text(function(d) { return d.text; })
+  				.on("mouseover", mouseover)
+  				.on("mouseout", mouseout)
+  				.on("click", mouseclick);
+  };
+  function mouseover(data){
+    if(!click_flag){
+      d3.selectAll("text").attr("fill", "black");
+      d3.select(this).attr("fill", "#00DD00");
+      var circles = d3.selectAll("circle").attr("class", (d, i) => "node_" + i);
+      //console.log(circles);
+      for(var i=0; i<circles._groups[0].length; i++){
+        if(circles._groups[0][i].__data__.kw.indexOf(data.keyword)===-1){
+          d3.select(".node_" + i).attr("opacity", 0.2);
+        }
+      }
+    }
+  };
+  function mouseout(data){
+    if(!click_flag){
+      d3.select(this).attr("fill", "black");
+    }
+    d3.selectAll("circle").attr("opacity", 1.0);
+  };
+  function mouseclick(data){
+    if(click_flag && target_keyword === data.keyword){
+      changeMode(27);
+    }
+    else if(!click_flag){
+      click_flag = true;
+      target_keyword = data.keyword;
+
+      d3.selectAll(".word").attr("fill", "lightgrey");
+      d3.select(this).attr("fill", "#00DD00");
+      var circles = d3.selectAll("circle").attr("class", (d, i) => "node_" + i);
+      var nodes = []
+      for(var i=0; i<circles._groups[0].length; i++){
+        if(circles._groups[0][i].__data__.kw.indexOf(data.keyword)!==-1){
+          nodes.push(circles._groups[0][i].__data__);
+        }
+      }
+      d3.selectAll("circle").remove("g");
+      d3.selectAll(".circle_text").remove("g");
+      for(var i=0; i<nodes.length; i++){
+        nodes[i].r = 70;
+      }
+      renderBubbles(nodes);
+      d3.selectAll("circle").attr("fill", "lightgrey");
+    }
+  }
+})};
+/*世界地図の描画*/
+d3.json("./lib/50m.json").then(function (world) {
+    renderWorld(world);
+});
+/*Cartogramの描画*/
+DorlingCartogram(json_file);
+/*WordCloudの描画*/
+WordCloud(csv_file);
+d3.select("body").on("keydown", function(){changeMode(d3.event.keyCode);});
+function changeMode(key){
+  //console.log(key);
+  if(key === 27){
+    click_flag = false;
+    d3.selectAll("circle").remove("g");
+    d3.selectAll(".circle_text").remove("g");
+    d3.selectAll(".word").remove("g");
+    d3.selectAll(".tool_tip").remove("g");
+    d3.selectAll(".tool_tip_text").remove("g");
+    d3.selectAll(".keyLabel").remove("g");
+    DorlingCartogram(json_file);
+    WordCloud(csv_file);
+    check_count = 0;
+    buttonMode();
+  }
+  /*
+  if(key === 37 && time_buf !== 0){
+    d3.selectAll("rect").attr("x", function(d){d.x -= Math.floor(980/time_range); return  Math.max(d.x, 0);});
+    time.setHours(time.getHours()-1);
+    time_buf -= 1;
+    year = String(time.getFullYear());
+    month = String(time.getMonth()+1);
+    if(month < 10){
+      month = '0' + String(month);
+    }
+    day = String(time.getDate());
+    if(day < 10){
+      day = '0' + String(day);
+    }
+    hour = time.getHours();
+    if(hour < 10){
+      hour = '0' + String(hour);
+    }
+    csv_file = "./storage/csv/" + year + month + day + hour + ".csv";
+    json_file = "./storage/json/" + year + month + day + hour + ".json";
+    time.setHours(time.getHours()-9);
+    year = String(time.getFullYear());
+    month = String(time.getMonth()+1);
+    if(month < 10){
+      month = '0' + String(month);
+    }
+    day = String(time.getDate());
+    if(day < 10){
+      day = '0' + String(day);
+    }
+    hour = time.getHours();
+    if(hour < 10){
+      hour = '0' + String(hour);
+    }
+    d3.selectAll("circle").remove("g");
+    d3.selectAll("text").remove("g");
+    var timeLabel = svg.append("text").attr("class", "timeLabel").attr("text-anchor", "end")
+                  .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 320).attr("y", height-10)
+                  .text(year + "/" + month + "/" + day + " " + hour + ":00");
+    time.setHours(time.getHours()+9);
+    if(!click_flag){
+      DorlingCartogram(json_file);
+      WordCloud(csv_file);
+    }
+    else if(click_flag){
+      var keyLabel = svg.append("text").attr("class", "keyLabel").attr("text-anchor", "start")
+                    .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 5).attr("y", height-60);
+      d3.selectAll(".keyLabel").text(target_keyword
+      .replace(/&quot;/g, "\"")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&#39;/g, "\'")
+      .replace(/&amp;/g, "&"));
+      d3.json(json_file).then(function (points) {
+          var nodes = points.features.map(function(d) {
+              var point = proj(d.properties.coordinates);
+              var kw_list = []
+              for(key in d.properties.kw){
+                kw_list.push(key);
+              }
+              //console.log(kw_list);
+              return {
+                x: point[0], y: point[1],
+                r: radius(d.properties.score_sum),
+                n: d.properties.nation,
+                re: d.properties.region,
+                kw: kw_list,
+                q: d.query,
+                id: d.properties.kw
+              }
+            });
+          renderBubbles(nodes);
+          var circles = d3.selectAll("circle").attr("class", (d, i) => "node_" + i);
+          var nodes = []
+          for(var i=0; i<circles._groups[0].length; i++){
+            if(circles._groups[0][i].__data__.kw.indexOf(target_keyword)!==-1){
+              nodes.push(circles._groups[0][i].__data__);
+            }
+          }
+          d3.selectAll("circle").remove("g");
+          d3.selectAll(".circle_text").remove("g");
+          for(var i=0; i<nodes.length; i++){
+            nodes[i].r = 70;
+          }
+          renderBubbles(nodes);
+          click_flag = true;
+          d3.selectAll("circle").attr("fill", "lightgrey")
+          .on("mouseover", circleover)
+          .on("mouseout", circleout)
+          .on("click", circleclick);
+        })
+    }
+    click_flag = false;
+    check_count = 0;
+    buttonMode();
+  }
+  if(key === 39 && time_buf !== time_range){
+    //console.log(time);
+    d3.selectAll("rect").attr("x", function(d){d.x += Math.floor(980/time_range); return Math.min(d.x, 980);});
+    time.setHours(time.getHours()+1);
+    time_buf += 1;
+    year = String(time.getFullYear());
+    month = String(time.getMonth()+1);
+    if(month < 10){
+      month = '0' + String(month);
+    }
+    day = String(time.getDate());
+    if(day < 10){
+      day = '0' + String(day);
+    }
+    hour = time.getHours();
+    if(hour < 10){
+      hour = '0' + String(hour);
+    }
+    csv_file = "./storage/csv/" + year + month + day + hour + ".csv";
+    json_file = "./storage/json/" + year + month + day + hour + ".json";
+    time.setHours(time.getHours()-9);
+    year = String(time.getFullYear());
+    month = String(time.getMonth()+1);
+    if(month < 10){
+      month = '0' + String(month);
+    }
+    day = String(time.getDate());
+    if(day < 10){
+      day = '0' + String(day);
+    }
+    hour = time.getHours();
+    if(hour < 10){
+      hour = '0' + String(hour);
+    }
+    d3.selectAll("circle").remove("g");
+    d3.selectAll("text").remove("g");
+    var timeLabel = svg.append("text").attr("class", "timeLabel").attr("text-anchor", "end")
+                  .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 320).attr("y", height-10)
+                  .text(year + "/" + month + "/" + day + " " + hour + ":00");
+    time.setHours(time.getHours()+9);
+
+    if(!click_flag){
+      DorlingCartogram(json_file);
+      WordCloud(csv_file);
+    }
+    else if(click_flag){
+      var keyLabel = svg.append("text").attr("class", "keyLabel").attr("text-anchor", "start")
+                    .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 5).attr("y", height-60);
+      d3.selectAll(".keyLabel").text(target_keyword
+      .replace(/&quot;/g, "\"")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&#39;/g, "\'")
+      .replace(/&amp;/g, "&"));
+      d3.json(json_file).then(function (points) {
+          var nodes = points.features.map(function(d) {
+              var point = proj(d.properties.coordinates);
+              var kw_list = []
+              for(key in d.properties.kw){
+                kw_list.push(key);
+              }
+              //console.log(kw_list);
+              return {
+                x: point[0], y: point[1],
+                r: radius(d.properties.score_sum),
+                n: d.properties.nation,
+                re: d.properties.region,
+                kw: kw_list,
+                q: d.query,
+                id: d.properties.kw
+              }
+            });
+          renderBubbles(nodes);
+          var circles = d3.selectAll("circle").attr("class", (d, i) => "node_" + i);
+          var nodes = []
+          for(var i=0; i<circles._groups[0].length; i++){
+            if(circles._groups[0][i].__data__.kw.indexOf(target_keyword)!==-1){
+              nodes.push(circles._groups[0][i].__data__);
+            }
+          }
+          d3.selectAll("circle").remove("g");
+          d3.selectAll(".circle_text").remove("g");
+          for(var i=0; i<nodes.length; i++){
+            nodes[i].r = 70;
+          }
+          renderBubbles(nodes);
+          click_flag = true;
+          d3.selectAll("circle").attr("fill", "lightgrey")
+          .on("mouseover", circleover)
+          .on("mouseout", circleout)
+          .on("click", circleclick);
+        })
+    }
+    click_flag = false;
+    check_count = 0;
+    buttonMode();
+  }*/
+  if(key === 13){
+    var j = 0;
+    var query_data = [];
+    var id_data = [];
+    var targets = d3.selectAll("circle");
+    //console.log(d3.selectAll("circle")._groups[0].length);
+    for(var i=0; i<targets._groups[0].length; i++){
+      if(targets._groups[0][i].attributes.fill.nodeValue === "lime" && targets._groups[0][i].attributes.opacity.nodeValue === "1"){
+        //console.log(targets._groups[0][i].__data__.id[target_keyword][1]);
+        query_data[j] = targets._groups[0][i].__data__.q;
+        id_data[j] = targets._groups[0][i].__data__.id[target_keyword][1];
+        j += 1;
+      }
+    }
+    //console.log(targets);
+    if(query_data.length >= 1 && query_data.length <= 4){
+      /*comp.htmlに飛ぶ操作*/
+        let url = location.search.substring(0) + "comp.html?";
+        for (let i = 0; i < query_data.length; i++){
+            url += "id" + (i + 1) + "=" + id_data[i] + "&";
+            url += "hl" + (i + 1) + "=" + query_data[i].slice(3, -6) + "&";
+            url += "gl" + (i + 1) + "=" + query_data[i].slice(-2, ) + "&";
+        }
+        url += "kw=" + encodeURI(target_keyword);
+        window.open(url, "_blank");
+        click_flag = true;
+    }
+  }
+}
+var control_div = d3.select("body").append("div").style("width", 1500).style("height", 200).style("display", "flex");
+var time_svg = control_div.append("svg").attr("width", 1200).attr("height", 50);
+var button_div = control_div.append("div");
+button_div.append("button").attr("class", "btn2").attr("type", "button").text("Reset").on("click", function(){return changeMode(27);});
+button_div.append("button").attr("class", "btn3").attr("type", "button").text("Compare");
+function buttonMode(){
+  if(check_count > 0 && check_count <= 4){
+    button_div.selectAll(".btn3").attr("class", "btn1").on("click", function(){return changeMode(13);});
+  }
+  else{
+    button_div.selectAll(".btn1").attr("class", "btn3");
+  }
+}
+var x = d3.scaleLinear()
+    .domain([0, 180])
+    .range([0, 1000])
+    .clamp(true);
+var slider = time_svg.append("g")
+    .attr("class", "slider")
+    .attr("transform", "translate(10,20)");
+slider.append("line")
+    .attr("class", "track")
+    .attr("x1", x.range()[0])
+    .attr("x2", x.range()[1]);
+var rect = [{x: 10, y:-15}]
+slider.selectAll("rect").data(rect).enter().append("rect").attr("class", "slider_rect").attr("width", 20).attr("height", 30).attr("fill", "grey").attr("x", function(d){return d.x;}).attr("y", function(d){return d.y;}).call(
+  d3.drag()
+    .on("start", dragstarted)
+    .on("drag", dragged)
+    .on("end", dragended));
+function dragstarted(d) {
+  d3.select(this).raise().classed("active", true);
+}
+function dragged(d) {
+  //console.log(d.x);
+  if(d.x < 0){
+    d3.select(this).attr("x", 0);
+  }
+  else if(d.x > 980){
+    d3.select(this).attr("x", 980);
+  }
+  else{
+    d3.select(this).attr("x", d.x = d3.event.x);
+  }
+  var x_posi = d.x;
+  if(x_posi < 0){
+    x_posi = 0;
+  }
+  else if(x_posi > 980){
+    x_posi = 980;
+  }
+  time_buf = Math.round(timeScale(x_posi));
+  time.setDate(first_time.getDate()+(Math.floor(time_buf / 24)));
+  time.setHours(first_time.getHours()+(time_buf%24)-9);
+  year = String(time.getFullYear());
+  month = String(time.getMonth()+1);
+  if(month < 10){
+    month = '0' + String(month);
+  }
+  day = String(time.getDate());
+  if(day < 10){
+    day = '0' + String(day);
+  }
+  hour = time.getHours();
+  if(hour < 10){
+    hour = '0' + String(hour);
+  }
+  d3.selectAll(".timeLabel").remove("g");
+  var timeLabel = svg.append("text").attr("class", "timeLabel").attr("text-anchor", "end")
+                .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 320).attr("y", height-10)
+                .text(year + "/" + month + "/" + day + " " + hour + ":00");
+  time.setHours(time.getHours()+9);
+}
+function dragended(d) {
+  d3.selectAll(".tool_tip").remove("g");
+  if(d.x < 0){
+    d3.select(this).attr("x", d.x = 0);
+  }
+  else if(d.x > 980){
+    d3.select(this).attr("x", d.x = 980);
+  }
+  d3.select(this).classed("active", false);
+  year = String(time.getFullYear());
+  month = String(time.getMonth()+1);
+  if(month < 10){
+    month = '0' + String(month);
+  }
+  day = String(time.getDate());
+  if(day < 10){
+    day = '0' + String(day);
+  }
+  hour = time.getHours();
+  if(hour < 10){
+    hour = '0' + String(hour);
+  }
+  csv_file = "./storage/csv/" + year + month + day + hour + ".csv";
+  json_file = "./storage/json/" + year + month + day + hour + ".json";
+  time.setHours(time.getHours()-9);
+  year = String(time.getFullYear());
+  month = String(time.getMonth()+1);
+  if(month < 10){
+    month = '0' + String(month);
+  }
+  day = String(time.getDate());
+  if(day < 10){
+    day = '0' + String(day);
+  }
+  hour = time.getHours();
+  if(hour < 10){
+    hour = '0' + String(hour);
+  }
+  d3.selectAll("circle").remove("g");
+  d3.selectAll("text").remove("g");
+  var timeLabel = svg.append("text").attr("class", "timeLabel").attr("text-anchor", "end")
+                .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 320).attr("y", height-10)
+                .text(year + "/" + month + "/" + day + " " + hour + ":00");
+  time.setHours(time.getHours()+9);
+  if(!click_flag){
+    DorlingCartogram(json_file);
+    WordCloud(csv_file);
+  }
+  else if(click_flag){
+    d3.json(json_file).then(function (points) {
+        var nodes = points.features.map(function(d) {
+            var point = proj(d.properties.coordinates);
+            var kw_list = []
+            for(key in d.properties.kw){
+              kw_list.push(key);
+            }
+            //console.log(kw_list);
+            return {
+              x: point[0], y: point[1],
+              r: radius(d.properties.score_sum),
+              n: d.properties.nation,
+              re: d.properties.region,
+              kw: kw_list,
+              q: d.query,
+              id: d.properties.kw
+            }
+          });
+        renderBubbles(nodes);
+        var circles = d3.selectAll("circle").attr("class", (d, i) => "node_" + i);
+        var nodes = []
+        for(var i=0; i<circles._groups[0].length; i++){
+          if(circles._groups[0][i].__data__.kw.indexOf(target_keyword)!==-1){
+            nodes.push(circles._groups[0][i].__data__);
+          }
+        }
+        d3.selectAll("circle").remove("g");
+        d3.selectAll(".circle_text").remove("g");
+        for(var i=0; i<nodes.length; i++){
+          nodes[i].r = 70;
+        }
+        renderBubbles(nodes);
+        click_flag = true;
+        d3.selectAll("circle").attr("fill", "lightgrey")
+        .on("mouseover", circleover)
+        .on("mouseout", circleout)
+        .on("click", circleclick);
+      })
+      var keyLabel = svg.append("text").attr("class", "keyLabel").attr("text-anchor", "start")
+                    .attr("font-size", 40).attr("font-family", "'Roboto', sans-serif").attr("x", 5).attr("y", height-60).text(target_keyword);
+  }
+  click_flag = false;
+  check_count = 0;
+  buttonMode();
+}
+
+//svg.on("click", function(){if(click_flag){d3.selectAll(".keyLabel").text(target_keyword);}})
+</script>
+</body>

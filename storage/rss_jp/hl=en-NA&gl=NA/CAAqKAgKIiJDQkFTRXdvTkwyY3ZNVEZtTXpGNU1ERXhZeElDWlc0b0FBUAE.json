@@ -1,0 +1,23 @@
+{
+    "src_link": "https://news.google.com/topics/CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZtTXpGNU1ERXhZeElDWlc0b0FBUAE?hl=en-NA&gl=NA&ceid=NA:en",
+    "language": "en-NA",
+    "get_time": "2018-12-08 13:33:22 GMT",
+    "content": [
+        {
+            "title": "AlphaZero\u306e\uff08\u6df1\u3044\uff09\u5fc3\u306e\u4e2d -  Chessbase News",
+            "link": "https://en.chessbase.com/post/the-full-alphazero-paper-is-published-at-long-last",
+            "pub_date": "2018-12-07 07:49:41 GMT",
+            "source_nm": "Chessbase News",
+            "source_url": "https://en.chessbase.com",
+            "desc": ""
+        },
+        {
+            "title": "AlphaGo\u306e\u3088\u308a\u30b9\u30de\u30fc\u30c8\u306a\u30d0\u30fc\u30b8\u30e7\u30f3\u306b\u3088\u308bAI\u30d6\u30ec\u30fc\u30af\u30b9\u30eb\u30fc\u306eDeepMind  -  Financial Times",
+            "link": "https://www.ft.com/content/ac50f12a-f962-11e8-af46-2022a0b02a6c",
+            "pub_date": "2018-12-06 19:30:52 GMT",
+            "source_nm": "\u30d5\u30a1\u30a4\u30ca\u30f3\u30b7\u30e3\u30eb\u30bf\u30a4\u30e0\u30ba",
+            "source_url": "https://www.ft.com",
+            "desc": "DeepMind, the London-based artificial intelligence company, has announced two research successes \u2014 the strongest game-playing AI so far and the world\u2019s most powerful predictor of the shape of protein molecules \u2014 as it returns to its scientific roots after agreeing to transfer its health division to parent company Google. In the journal Science, DeepMind presents AlphaZero, a development of its celebrated AlphaGo machine. With no prior knowledge or data input beyond the rules of the game, AlphaZero taught itself to play not only Go but also chess and shogi (Japanese chess) at a level that..."
+        }
+    ]
+}
